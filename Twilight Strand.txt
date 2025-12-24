@@ -1,0 +1,614 @@
+## Twilight Strand
+This campaign begins with members of the party aboard a ship sailing through stormy seas. They are criminals, maybe innocent, but with varying severity of crimes, who have been exiled to Wraeclast. They will be brought on deck and lined up, where they will hear the captain reading the letters of exile. After completing a letter, the captain will place the letter on the person. When he has finished all the letters, each prisoner will be pushed overboard.
+
+Each player will make a Constitution saving throw, which will determine in which order they come to consciousness on the shore, with each point translating into 6 sec (1 round) earlier. Upon waking, each character will find themselves washed ashore in section 1, where they will see a raging sea behind them, and before filthy grey sand covered with wreckage, rocks, and corpses. Beyond the shore tower rocky crags and cliffs, which extend out into the sea on the left. To the right, in the distance, they can see a light. They will see people walking all along the beach, but on a 15+ perception check they will recognize them as zombies. Each player that wakes up will be within 50 ft. of the players that are already awake.
+
+The beach is about 1000 ft. long, and is split into 4 sections, each 250 ft. long. The players will awaken in the first section and it will contain only 1 drowned. Any time the party enters a new section, roll for a full party encounter (table M2). Hillock will be in the last section. Behind him will be palisades surrounding a rocky outcrop, on top of which appears to be the ruins of a stone fortification.
+
+There will be a number of nonplayer exiles dependant on the number of players that will also be washed ashore. These exiles will work with the players, banding together to try to survive the undead, but they will take the brunt of the attacks and will likely die.
+
+##### NPC Exiles
+| # of Players | # of NPC Exiles |
+| :----: | :----|
+| 1-2 | 1 |
+| 3-4 | 2 |
+| 5+ | 3 |
+
+### Random Encounters
+
+Every ten minutes, roll on the table below to see if a monster wanders nearby. Precautions can be taken to better their odds, at the DMs discretion, but reckless behavior (such as making a lot of noise) should worsen their chances. The party cannot benefit from a long rest due to current conditions (cold rain, no cover, no dry spot, threat of enemies, etc.).
+
+##### Random Encounters
+| 1d20 | Enemies |
+|:----:|:-------------|
+| 1-6 | Roll on Wandering Monsters (M1) |
+| 7-20 | No encounter |
+
+```
+```
+
+##### M1. Wandering Monsters
+| 1d6 | Enemies |
+|:----:|:-------------|
+| 1-2 | 1 Drowned |
+| 3-4 | 1 Hungry Corpses |
+| 5-6 | 1 Sand Spitter |
+
+### Section 1
+
+Ocean currents and the tide pull a lot of debris from the ocean to this shore, particularly this end. There is an abundance of debris, driftwood, and even some crates that may be of use. A player can spend 5 minutes to scavenge an area to look for equipment. They roll on the table below, adding their investigation modifier for a chance at weapons. If another player assists them, they will have advantage on the roll. After this roll, they have broken open all of the crates, turned over all the rocks, and can find nothing else.
+
+**Note**: If the party wishes to find something unrelated to this list, such as glass bottles or books, allow them to do so, but any items are likely to be damaged.
+
+##### Scavenge
+| 1d20 | Loot |
+|:----:|:-------------|
+| 1-4 | You are interrupted by a Drowned. You can scavenge again. |
+| 5-8 | You find nothing |
+| 9-12 | You find 1 weapon. Roll once on LootA |
+| 13-14 | You find 2 weapons. Roll twice on LootA |
+| 15-16 | You find 2 weapons and a potion of healing. Roll 2 times on LootA |
+| 17-18 | You find 2 weapons and a set of armor. Roll 2 times on LootA and once on LootB |
+| 19-20 | You find 2 weapons, a set of armor, and a potion of healing. Roll 2 times on LootA and once on LootB |
+| 21+ | You find 2 weapons, 1 set of armor, 2 potions of healing, and a mana potion. Roll 2 times on LootA and once on LootB |
+
+Additionally, a player can make a DC 12 investigation check, survival check, or some relavent crafting/profession check to craft a club or greatclub out of some of the driftwood.
+
+After the first time a player scavenges, a Drowned, which appears to be a corpse until it moves, will stand up and attack them.
+
+After killing the first drowned, the party will find their first skill gem. The gem should match a weapon they possess, or one that their character would prefer. If you want to roll for a gem, use table G1.
+
+<div class='pageNumber auto'></div>
+
+\page
+
+##### Starting Gems
+| Weapon Type | Skill Gems |
+|:----:|:---|
+| Club | Double Strike, Glacial Hammer, Heavy Strike, Spectral Throw |
+| Axe | Double Strike, Heavy Strike, Spectral Throw, Viper Strike |
+| Sword | Double Strike, Heavy Strike, Spectral Throw, Viper Strike |
+| Bow | Burning Arrow |
+| Dagger | Double Strike, Heavy Strike, Spectral Throw, Viper Strike |
+| Quarterstaff | Double Strike, Glacial Hammer, Heavy Strike, Spectral Throw |
+| Any | Firestrike |
+
+##### G1. Random Gem
+| 1d20 | Gem |
+|:----:|:-------------|
+| 1-3 | Double Strike |
+| 4-6 | Glacial Hammer |
+| 7-8 | Heavy Strike |
+| 9-10 | Spectral Throw |
+| 11-12 | Viper Strike |
+| 13-16 | Burning Arrow |
+| 17-20 | Firestrike |
+
+### Section 2
+
+This section contains a monster group. As soon as the party enters section 1, have them roll on the table 'Monster Group' (M2).
+
+##### M2. Monster Group
+| 1d6 | Enemies |
+|:----:|:-------------|
+| 1 | 1d4+1 Drowned |
+| 2 | 1d4 Hungry Corpses |
+| 3 | 1d4 Drowned & 1 Hungry Corpse |
+| 4 | 4 Hungry Corpses |
+| 5 | 1d4 Sand Spitters |
+| 6 | 1d4 Drowned & 2 Sand Spitters |
+
+At the end of section 2, the party will find a chest containing an active skill gem for the remaining party members, players minus one. They should each get a gem that matches a weapon they possess, or one that their character would prefer. If you want to roll for a gem, use table G1.
+
+```
+```
+
+### Section 3
+This section contains a monster group. As soon as the party eneters section 1, have them roll on the table 'Monster Group' (M2).
+
+### Section 4
+This section contains Hillock and a treasure trove (1d4 loot rolls), which is a large open crate filled with limbs and random items.
+
+After the party defeats Hillock, give them the Leap Slam gem and Hillock's Sword.
+
+### Looting
+
+When looting bodies, for every monster killed, roll on the Loot Table. Used the Scavenged Items tables for items that do not exist in D&D books.
+
+
+##### Scavenged Items
+| Weapon | Description |
+| :----: | :-----------|
+| Glass Shank | Treat it as a dagger that cannot be thrown (1d4 P). |
+| Rusted " " | Treat it as a -1 weapon. |
+| Crude Bow | Treat it as a -1 shortbow (1d6-1 P). |
+| Wand | It fires a projectile dealing 1d4 B with range 60/240. |
+| Nailed Fist | A stick with nails that you hold in a closed fist. Finesse and Light, 1d4 P. |
+| Sceptre | It has the same properties as a club. |
+| Wisdom Scroll | This is a magic scroll that can be used to identify a magic item. |
+| Mana Potion | Consuming this restores either a first level spell slot, one use of an exhaustible class ability, or one use of a spell gem.
+
+##### Loot Table
+| 1d20 | Loot |
+|:----:|:-------------|
+| 1-10 | You find nothing |
+| 11 | You find a potion of healing. |
+| 12 | You find a mana potion. |
+| 13-15 | You find a weapon. Roll on table LootA |
+| 16-18 | You find armor. Roll on table LootB |
+| 19-20 | You find a Wisdom Scroll. |
+| 21 | You find a gem. |
+| 22-24 | You find 2 weapons. Roll on table LootA twice. |
+| 25+ | You find 2 armor. Roll on table LootB twice. |
+
+<div class='pageNumber auto'></div>
+
+\page
+
+##### LootA
+| 1d20+CR | Loot |
+|:----:|:--------------|
+| 1 | You find a club. |
+| 2 | You find a greatclub. |
+| 3 | You find a sceptre. |
+| 4 | You find a rusted handaxe. |
+| 5 | You find a rusted battleaxe. |
+| 6 | You find a rusted shortsword. |
+| 7 | You find a rusted rapier. |
+| 8 | You find a rusted longsword. |
+| 9 | You find a crude bow. |
+| 10 | You find a nailed fist. |
+| 11 | You find a glass shank. |
+| 12 | You find a -1 quarterstaff. |
+| 13 | You find a handaxe. |
+| 14 | You find a battleaxe. |
+| 15 | You find a shortsword. |
+| 16 | You find a rapier. |
+| 17 | You find a longsword. |
+| 18 | You find a bow. |
+| 19 | You find a quarterstaff. |
+| 20 | You find a wand. |
+| 21+ | You found a magic weapon. Subtract 20 to find the item result, and then look table W1 for magic property. |
+
+##### LootB
+| 1d20+CR | Loot |
+|:----:|:--------------|
+| 1-4 | You find Hide Armor |
+| 5-8 | You find Padded Armor |
+| 9-10 | You find a Simple Robe (+2 ES) |
+| 11-14 | You find a wooden plank (+2 AC vs. ranged attacks, disadvantage on stealth). |
+| 15-18 | You find a Goathide Buckler (+1 AC). |
+| 19-20 | You find a Twig shield (+1 ES). |
+| 21+ | You found a magic weapon. Subtract 20 to find the item result, and then look table W1 for magic property. |
+
+```
+```
+
+##### LootC
+|1d20+CR | Loot |
+|:----:|:-------------|
+| 1-4 | Heavy Strike |
+| 5-8 | Double Strike |
+| 9-12 | Burning Arrow |
+| 13-16 | Viper Strike |
+| 17-20 | Fireball |
+| 21-24 | Glacial Hammer |
+| 25-28 | Spectral Throw |
+| 29-30 | Blight |
+| 31-32 | Freezing Pulse |
+| 33-34 | Lightning Tendrils |
+| 35-36 | Magma Orb |
+| 37-38 | Raise Zombie |
+| 39-40 | Ethereal Knives |
+| 41-42 | Purifying Flame (Cleric/Paladin Only) |
+| 43-44 | Frost Blades |
+| 45-46 | Lightning Tendrils |
+| 47-48 | Caustic Arrow |
+| 49-50 | Ice Shot |
+| 51-52 | Shrapnel Shot |
+| 53-54 | Split Shot |
+| 55-56 | Cleave |
+| 57-58 | Molten Strike |
+| 59-60 | Ground Slam |
+| 61-62 | Frostbolt |
+| 63-64 | Smite (Cleric/Paladin Only) |
+| 65-66 | Spark |
+| 67-68 | Dual Strike |
+| 69-72 | Ruthless |
+| 73-76 | Chance to Bleed |
+| 77-80 | Pierce |
+| 81-84 | Poison |
+| 85-88 | Arcane Surge |
+| 89-92 | Elemental Proliferation |
+| 92-96 | Onslaught |
+| 97+ | Roll twice on this table, rerolling this result. |
+
+
+<div class='pageNumber auto'></div>
+
+\page
+
+##### W1
+| Item | Basic Magic Property |
+|:----:|:--------------|
+| Club | +1 to Stun DC |
+| Greatclub | +1 to Stun DC |
+| Sceptre | +1 to Spell damage |
+| Handaxe | +1 to damage. |
+| Battle axe | +1 to damage. |
+| Shortsword | +1 to hit. |
+| Rapier | +5 crit damage. |
+| Longsword | +1 to hit. |
+| Crude Bow | +1 to hit. |
+| Nailed Fist | Regain 1 HP on hit. |
+| Glass Shank | Extend crit range by 1. |
+| Quarterstaff | +1 to AC. |
+
+##### A1
+| Item | Basic Magic Property |
+|:----:|:---------------|
+| Hide Armor | +1 damage reduction to physical damage |
+| Padded Armor | +1 AC |
+| Simple Robe | +1 ES |
+| Wooden Plank | +2 HP |
+| Goathide Buckler | +5' movement |
+| Twig Shield | +1 damage to spells |
+
+
+<div class='pageNumber auto'></div>
+
+\page
+___
+> ## Drowned
+>*Medium Undead, neutral evil*
+> ___
+> - **Armor Class** 8
+> - **Hit Points** 13(2d8 + 4)
+> - **Speed** 15 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|13 (+1)|6 (-2)|14 (+2)|3 (-4)|6 (-2)|5 (-3)|
+>___
+> - **Saving Throws** Wis +0
+> - **Damage Immunities** Poison
+> - **Condition Immunities** Poisoned
+> - **Senses** Darkvision 60 Ft., Passive Perception 8
+> - **Challenge** 1/8 (25 XP)
+>___
+> ***Sluggish.*** Drowned cannot dash or make attacks of opportunity.
+>
+> ### Actions
+> ***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5ft., one target. *Hit* 5 (1d6 + 1) bludgeoning damage.
+
+___
+> ## Hungry Corpse
+>*Medium Undead, neutral evil*
+> ___
+> - **Armor Class** 8
+> - **Hit Points** 22(3d8 + 9)
+> - **Speed** 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|13 (+1)|6 (-2)|16 (+3)|3 (-4)|6 (-2)|5 (-3)|
+>___
+> - **Saving Throws** Wis +0
+> - **Damage Immunities** Poison
+> - **Condition Immunities** Poisoned
+> - **Senses** Darkvision 60 Ft., Passive Perception 8
+> - **Challenge** 1/4 (50 XP)
+>
+> ### Actions
+> ***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5ft., one target. *Hit* 5 (1d6 + 1) bludgeoning damage.
+
+___
+> ## Sand Spitter
+>*Medium Beast, neutral*
+> ___
+> - **Armor Class** 12
+> - **Hit Points** 16(3d8 + 3)
+> - **Speed** 30 ft., swim 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|12 (+1)|12 (+1)|2 (-4)|10 (+0)|3 (-4)|
+>___
+> - **Saving Throws** Wis +0
+> - **Senses** Darkvision 30 Ft., Passive Perception 12
+> - **Challenge** 1/8 (50 XP)
+>
+> ### Actions
+> ***Rock Spit.*** *Ranged Weapon Attack:* +3 to hit, range 30 ft., one target. *Hit* 3 (1d4) bludgeoning damage.
+
+___
+> ## Hillock
+>*Large Undead, neutral evil*
+> ___
+> - **Armor Class** 8
+> - **Hit Points** 68(8d8 + 32)
+> - **Speed** 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|6 (-2)|18 (+4)|3 (-4)|6 (-2)|5 (-3)|
+>___
+> - **Saving Throws** Wis +0
+> - **Damage Immunities** Poison
+> - **Condition Immunities** Poisoned
+> - **Senses** Darkvision 60 Ft., Passive Perception 12
+> - **Challenge** 1 (200 XP)
+>
+>___
+> ***Fury.*** Hillock will attack with his fists. When Hillock becomes bloodied, at the start of his next turn, he will pull a sword from body and make attacks with it instead.
+>
+> ### Actions
+> ***Punch.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit* 4 (1 + 3) bludgeoning damage.
+>
+> ***Sword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit* 7 (1d6 + 3) slashing damage. Crits on 19-20.
+>
+> ***Multiattack***: Hillock will make two attacks with his sword.
+>
+> ***Leap Slam.*** If two or more targets are within 5' of each other and within 30' of Hillock, Hillock leaps towards one, making an attack with his current weapon against the target and every enemy within 5'. Enemies hit must pass a DC 11 Constitution Saving Throw or be knocked back 5'.
+
+<div class='pageNumber auto'></div>
+
+\page
+
+___
+> ## Exile
+>*Medium Human*
+> ___
+> - **Armor Class** 11
+> - **Hit Points** 10(2d8 + 1)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|13 (+1)|12 (+1)|12 (+1)|10 (0)|10 (0)|11 (0)|
+>___
+> - **Skills** Perception +2, Athletics +3
+> - **Senses** Passive Perception 12
+> - **Challenge** 1/8 (50 XP)
+>
+> ### Actions
+> ***Rock Spit.*** *Unarmed Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4+1) bludgeoning damage.
+
+<img 
+  src='https://www.poewiki.net/w/images/e/ec/Oni-Goroshi_inventory_icon.png' 
+  style='width:125px' />
+
+### Hillock's Sword
+*Weapon, rare (longsword, requires attunement)*
+
+	
+*Shaped like a falchion, this sword is made from an unknown silver-grey metal. The pommel is a hollow circle with two crossing bars, and just above the crossguard is an ornate lattice made from gold, the ends of which are shaped like leaves.*
+
+___
+You gain a +1 bonus to attacks with this weapon. This weapon crits on 19-20. You cannot use another weapon or a shield while wielding this.
+
+There is still something unknown about this sword.
+
+<div class='pageNumber auto'></div>
+
+\page
+
+
+## Skill Gems
+
+### Blight
+*Skill Gem, Spell, Channelling, Duration, Area of Affect*
+
+This is a blue gem with gold gilding.
+
+**Lesser**: As an action, you may pay mana equal to a third of your proficiency (1-2) to channel blight. If you channelled blight as an action, you may also channel it as a bonus action. You release a wave of black withering energy in front of you. Each enemy in a 10' cone recieves a stack of blight. If they did not previously have any blight, they must pass a Constitution Saving throw with DC = 8 + INT or their movement is reduced by 25', to a minimum of 5' for one round. At the start of their turn, a creature with blight takes necrotic damage equal to your proficiency modifier for each stack of blight on them. Each stack lasts for 4 rounds and there can only be 10 stacks at max.
+
+**Greater**: As an action, you may pay mana equal to a half of your proficiency (1-3) to channel blight. If you channelled blight as an action, you may also channel it as a bonus action. You release a wave of black withering energy in front of you. Each enemy in a 15' cone recieves a stack of blight. If they did not previously have any blight, they must pass a Constitution Saving throw with DC = 8 + PRO + INT or their movement is reduced by 35', to a minimum of 5' for one round. At the start of their turn, a creature with blight takes necrotic damage equal to your proficiency modifier for each stack of blight on them. Each stack lasts for 5 rounds and there can only be 10 stacks at max.
+
+
+### Blight
+*Skill Gem, Spell, Channelling, Duration, Area of Affect*
+
+This is a blue gem with gold gilding.
+
+**Lesser**: Holding it in your hand or attuning to it allows you to cast the Lesser Blight spell by paying mana equal to a third of your proficiency (1-2).
+
+#### Lesser Blight
+
+**Casting time:** 1 action
+
+**Range:** Self
+
+**Components:** S
+
+**Duration:** Channelling, Concentration
+
+A wave of black withering energy is released from your hand, applying a corrupting influence to any creature in its area. Each enemy in a 10' cone recieves a stack of blight. If they did not previously have any blight, they must pass a Constitution Saving throw with DC = 8 + INT or their movement is reduced by 25', to a minimum of 5', until the end of their next turn. At the start of their turn, a creature with blight takes necrotic damage equal to your proficiency modifier for each stack of blight on them. Each stack lasts for 4 rounds and there can only be 10 stacks at max. You can maintain the spell by using an action, applying to effect again. If you cast blight or maintained it as an action, you may also channel it as a bonus action.
+
+```
+```
+
+### Burning Arrow
+*Skill Gem, Attack, Ranged, Ignite, Projectile*
+
+This is a green gem with gold gilding.
+
+**Lesser**: When making a ranged attack with a bow or crossbow, you may spend 1 mana to use Burning Arrow. Burning Arrow deals an extra 1d4 fire damage and has +1 to ignite threshold. Targets ignited by Burning Arrow take 1d6 fire damage from ignite.
+
+### Caustic Arrow
+*Skill Gem, Attack, Ranged, Projectile, Area of Affect*
+
+This is a green gem with gold gilding.
+
+**Lesser**: When making a ranged attack with a bow or crossbow, you may spend 1 mana to use Caustic Arrow. Wherever the arrow lands a cloud of acidic gas spreads in a circle with 5' radius and lasts 1 round. Any creature within the cloud must pass a Dexterity Saving Throw with DC = 8 + DEX or take (1d6)xPRO acid damage. Any creature that ends its turn in the cloud takes (1d6)xPRO acid damage. Increases to projectile damage increase the cloud damage.
+
+### Cleave
+*Skill Gem, Attack, Melee, Area of Affect*
+
+This is a red gem with gold gilding.
+
+**Lesser**: When making a melee attack with a slashing weapon, you may spend 1 mana to use Cleave. You may attack up to 3 enemies that are in front of you. If you are dualwielding melee weapons, roll for both weapons on hit.
+
+### Double Strike
+*Skill Gem, Attack, Melee*
+
+This is a green gem with gold gilding.
+
+**Lesser**: When making a melee attack, you may spend 1 mana to make a Double Strike. Make two attacks with disadvantage on the damage roll. If the target is bleeding, roll an additional 1d4 for the damage with Double Strike.
+
+### Ethereal Knives
+*Skill Gem, Spell, Projectile, Area of Affect*
+
+This is a green gem with gold gilding.
+
+**Lesser**: As an action, you may spend mana equal to half your proficiency modifier (1-3) to cast Ethereal Knives. You conjure 9 ethereal knives, which fly out in a 15' cone in front of you. You decide what targets the knives hit, up to a maximum of three per target. Each target takes (PRO/2)d4 piercing damage per knife that hits them or half damage on a successful DC = 8 + DEX Dexterity saving throw.
+
+### Firestrike
+*Skill Gem, Spell, Projectile*
+
+This is a blue gem with gold gilding.
+
+**Lesser**: As an action, you can spend mana equal to half your proficiency modifier (1-3) to cast Firestrike. Make a spell attack with +4 to ignite Threshold against a target within 60' and on hit deal (1d4)xPRO fire damage. A creature ignited by Firestrike takes 1d6 fire damage from ignite.
+
+<div class='pageNumber auto'></div>
+
+\page
+
+### Freezing Pulse
+*Skill Gem, Spell, Projectile*
+
+This is a blue gem with gold gilding.
+
+**Lesser**: As an action, you can spend mana equal to half your proficiency modifier (1-3) to cast Freezing Pulse. Each enemy in a 20' line takes (1d4)xPRO cold damage or half damage on a successful DC = 8 + INT Dexterity saving throw with +4 to its Chill Threshold. For each 5' in the distance to a target, the Chill Threshold decreases by 1 and the damage decreases by 2.
+
+### Frost Blades
+*Skill Gem, Attack, Melee, Ranged, Projectile*
+
+This is a green gem with gold gilding.
+
+**Lesser**:  When making a melee attack with a weapon, you can spend 1 mana to use Frost Blades. As you strike, a flash of ice extends the reach of your blade, giving you +5' to reach. On hit, 4 icy projectiles fly out in a cone behind the target, hitting seperate enemies. Each enemy hit by one of these projectiles takes cold damage equal to the initial strike.
+
+### Frost Bolt
+*Skill Gem, Spell, Projectile*
+
+This is a blue gem with gold gilding.
+
+**Lesser**:  As an action, you can spend mana equal to half your proficiency modifier (1-3) to cast Frostbolt. You create an orb of swirling ice that moves 10' now and again on initiative counts 20 and 10, piercing all targets. Each creature it passes through must make a DC = 8 + INT Dexterity saving throw, taking (1d4)xPRO cold damage on a failed saving throw, or half damage on a successful saving throw. After the orb has travelled 120', it disappears.
+
+
+### Glacial Hammer
+*Skill Gem, Attack, Melee, Cold*
+
+This is a red gem with gold gilding.
+
+**Lesser**: When making a melee attack with a bludgeoning weapon, you may spend 1 mana to use Glacial Hammer. Your weapon becomes encased in ice. When using Glacial Hammer, your bludgeoning damage becomes cold damage and your attack has +4 to Chill Threshold. Chill caused by Glacial Hammer lasts +1 round. If the target is already frozen on hit, deal an additional 3 force damage.
+
+### Ground Slam
+*Skill Gem, Attack, Melee, Area of Affect*
+
+This is a red gem with gold gilding.
+
+**Lesser**: When making a melee attack with a bludgeoning weapon, you may spend 1 mana to use Ground Slam. You hit the ground with your weapon creating a wave that travels out in a 15' cone. Each enemy in the cone takes bludgeoning damage equal to your weapon die + 1d4 or half damage on a successfuly DC = 8 + PRO + STR Dexterity saving throw. This skill has +5 to Stun Threshold. The damage and Stun Threshold decrease by 1 for every 5' between you and them.
+
+```
+```
+
+### Heavy Strike
+*Skill Gem, Attack, Melee*
+
+This is a red gem with gold gilding.
+
+**Lesser**: When making a melee attack, you may spend 1 mana to make a Heavy Strike. When making a Heavy Strike, your attack has +5 to Stun Threshold and on hit deals a bonus 1d6 damage and knocks the target back 5'.
+
+### Ice Shot
+*Skill Gem, Attack, Projectile, Area of Affect, Duration, Cold, Ranged*
+
+This is a green gem with gold gilding.
+
+**Lesser**:  When making a ranged attack with a bow or crossbow, you may spend 1 mana to use Ice Shot. On hit with Ice Shot, the arrow creates an icy explosion behind the target, dealing cold damage equal to the strike to everyone in a 5' cone. The ground under the target is iced over for 1 round and considered rough terrain.
+
+### Leap Slam
+*Skill Gem, Attack, Melee, Area of Affect, Movement*
+
+This is a red gem with gold gilding.
+
+**Lesser**: As an action, you may spend 1 mana to use Leap Slam. You leap towards a target within your movement speed + 10', making an attack against the target and every enemy within a 5' radius. Enemies hit are knocked back 5'.
+
+### Lightning Tendrils
+*Skill Gem, Spell, Area of Affect, Lightning, Channelling*
+
+This is a blue gem with gold gilding.
+
+**Lesser**: As an action, you may pay mana equal to 1/3 of your proficiency modifier (1-2) to channel Lightning Tendrils. Each enemy within a 5' semicircle makes a DEX saving throw with DC = 8 + PRO + INT. They take 1d12x(PRO/2) lightning damage on a fail, or half damage on a success. Every 4th cast while channeling does 1.5x as much damage. If you cast Lightning Tendrils as an action, you may cast it again in the same turn as a bonus action.
+
+### Magma Orb
+*Skill Gem, Spell, Area of Affect, Projectile, Fire, Chaining*
+
+This is a blue gem with gold gilding.
+
+**Lesser**: As an action, you can spend mana equal to half your proficient modifier (1-3) to cast Magma Orb. You throw a molten ball of rock up to 15' away, exploding in a 5' diameter circle and chaining once. When the orb chains, it continues in the same direction and travels the same distance. Enemies that are within the explosion take (1d6)xPRO fire damage or half damage on a successful DC = 8 + PRO + INT Dexterity Saving Throw.
+
+<div class='pageNumber auto'></div>
+
+\page
+
+### Molten Strike
+*Skill Gem, Attack, Melee, Projectile, Fire, Area of Affect*
+
+This is a red gem with gold gilding.
+
+**Lesser**: When making a melee attack, you can spend 1 mana to make a molten strike. On hit, Molten Strike deals 1d6 bonus fire damage and two projectiles fly from the target. For each projectile, pick a creature within 5' of the target (this can be the target). The creature must pass a DC = 8 + PRO + STR Dexterity saving throw or take fire damage equal to the fire damage of the initial hit.
+
+### Purifying Flame
+*Skill Gem, Spell, Fire, Area of Affect, Duration, Holy*
+
+This is a blue gem with gold gilding.
+
+**Lesser**: As an action, you can spend mana equal to half your proficiency modifier (1-3) to cast Purifying Flame. Make a spell attack against a target within 30'. On hit, the target takes (1d6)xPRO/2 radiant damage, and Consecrated Ground is created in a 5' circle centered on the target. Then, every enemy on Consecrated Ground within 120' takes (1d6)xPRO/2 radiant damage.
+
+### Raise Zombie
+*Skill Gem, Spell, Minion*
+
+This is a blue gem with gold gilding.
+
+**Lesser**: As an action, you can spend mana equal to your proficiency modifier (2-6) to cast Raise Zombie. Pick a corpse within 60' and within line of sight. It is transformed and is raised as a zombie (MM. 316) with 7xPRO hit points and has +PRO/2 to hit and damage. You can have a maximum of 3 at a time.
+
+### Shrapnel Shot
+*Skill Gem, Attack, Projectile, Area of Affect, Ranged, Lightning *
+
+This is a green gem with gold gilding.
+
+**Lesser**: When making an attack with a bow or crossbow, you can spend 1 mana to use Shrapnel Shot. You fire your shot with such force that there is a burst of electrical energy in front of you and the projectile flies straight through its targets. The projectile pierces up to 4 targets. Pick a straight line and a 5' cone centered on the line. Up to four creatures in the line and very creature in the 5' cone will take lightning damage equal to your attack or half damage with a successful DC = 8 + PRO + DEX Dexterity saving throw.
+
+### Smite
+*Skill Gem, Attack, Melee, Area of Affect, Duration, Aura*
+
+This is a red gem with gold gilding.
+
+**Lesser**: When making an attack with a melee slashing or bludgeoning weapon, you can spend 1 mana to use Smite.  On hit, deal a bonus 1d4 radiant damage and each enemy within 5' of the target must pass a DC = 8 + PRO + STR Dexterity saving throw or also be hit, and you gain an Aura that lasts one round: +1d4 radiant damage to all attacks and spells.
+
+```
+```
+
+### Spectral Throw
+*Skill Gem, Attack, Projectile*
+
+This is a green gem with gold gilding.
+
+**Lesser**: When making an attack with a melee weapon, you may spend 1 mana to use Spectral Throw. A spectral copy of your weapon will fly out 30' in a straight line. Roll to hit each creature it passes through. At the end of the round the spectral weapon will return to you. Roll to hit each creature it passes through. The spectral weapon deals damage equal to your weapon damage.
+
+### Split Shot
+*Skill Gem, Projectile, Ranged*
+
+This is a green gem with gold gilding.
+
+**Lesser**: When making an attack with a ranged weapon, you can spend 1 mana to use Split Shot. As you projectiles leaves your weapon, it splits into 5 projectiles, which fly in equally spaced directions.
+
+### Viper Strike
+*Skill Gem, Attack, Duration, Melee, Necrotic*
+
+This is a green gem with gold gilding.
+
+**Lesser**: When making a melee attack, you may spend 1 mana to make a Viper Strike. When making a Viper Strike, your attack deals an additional 1d4 necrotic damage and has +6 to Inflict Threshold. If you Inflict a creature with Viper Strike, Inflicted lasts for 4 rounds.
+
+<div class='pageNumber auto'></div>

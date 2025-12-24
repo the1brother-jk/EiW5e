@@ -1,0 +1,527 @@
+<div class='toc'>
+##### Table Of Contents
+- **[Exiled in Wraeclast](#p2)**
+  - [1.1 Setting](#p2)
+  - [1.2 Who are the players?](#p2)
+  - [1.3 Dieties](#p2)
+- **[Virtue Gems](#p3)**
+  - [2.1 ](#p3)
+    - [2.1.1 Using Gems](#p3)
+    - [2.1.2 Mana](#p3)
+  - [2.2 Ailments](#p3)
+- **[Prologue](#p5)**
+  - [3.1 Twilight Strand](#p5)
+    - [3.1.1 Hillock's Sword](#p9)
+</div>
+
+
+\page
+
+# Exiled in Wraeclast
+
+You were offered service to God and to Oriath, and in that service you were shown the true path to greatness. But you have chosen to walk your own path, to follow your selfish desires. That road leads to only one place! By the divine authority of the Templar, you are hereby exiled to the forsaken shores of Wraeclast! Let its waters cleanse you of sin. Let its fires consume your past. Find your redemption, exile, or die in the attempt.
+
+## Setting
+This campaign takes place on the continent of Wraeclast and the island of Oriath. Oriath is an island civilization, with the capital of Theopolis, that was once a part of the Eternal Empire, which once spanned much of Wraeclast. A few hundred years ago, the empire on Wraeclast vanished, and the few travellers who managed a safe return warned of the horrors and the undead that now plague the land. Due to these warnings, and because of the violent and unending storms that now surrounded the continent, travel to Wraeclast ended, and Oriath continued to grow and prosper on its own.
+
+Oriath is a theocratic country and is governed by the Templar, who are lead by the High Templar Dominus. Dominus lives in Theopolis and presides over the Court of Divine Temperance, which has recently established the practice of exiling criminals to Wraeclast. The prosperity of Oriath is due to their mercantile success and to the large number of Karui slaves that they possess.
+
+## Who are the players?
+The players take on the roles of those who have been exiled to Wraeclast. They will need to create a backstory as to why they were exiled to Wraeclast. The DM can write a Letter of Exile for each player, using the following format:
+
+***
+[name and origin]
+***
+You have transgressed against your God and your fellow Man. You have been a willing vessel for the following Sins:
+***
+[A Reading of the charges against that person]
+***
+God has charged me with your redemption. You are hereby Exiled to Wraeclast where, it is hoped, you shall come to repent your Sins, and make your peace with your beloved Father.
+
+##### Examples
+
+Barden of Inkley
+Sentenced: 1597 IC
+***
+You have transgressed against your God and your fellow Man. You have been a willing vessel for the following Sins:
+
+**Unlawful Avarice**
+
+One count of Petty Larceny
+
+Pecuniary Sloth
+
+Being unable to sustain an Occupation of Value to Society
+***
+God has charged me with your redemption. You are hereby Exiled to Wraeclast where, it is hoped, you shall come to repent your Sins, and make your peace with your beloved Father.
+
+***
+
+Hillock of Slaugh
+Sentenced: 1599 IC
+***
+You have transgressed against your God and your fellow Man. You have been a willing vessel for the following Sins:
+
+**Mortal Wrath**
+
+Six counts of Common Homicide
+
+One count of Infanticide
+
+Two counts of Homicide with post-mortem Desecration
+
+**Unlawful Avarice**
+
+Twelve counts of Extortion through Threat of Mortal Harm
+
+Seven counts of Armed Larceny
+
+Two counts of Armed Larceny resulting in Mortal Harm
+
+**Unsolicited Lust**
+
+Four counts of Rape
+
+Two counts of Attempted Rape
+
+**Mortal Wrath**
+
+One count of Rape resulting in Mortality
+***
+God has charged me with your redemption. You are hereby Exiled to Wraeclast where, it is hoped, you shall come to repent your Sins, and make your peace with your beloved Father.
+
+## Dieties
+Ralakesh, Master of a Million Faces?
+Gruthkul, the Mother of Despair?
+Abberath, the Cloven One?
+Tsoagoth, the Brine King?
+
+##### Vaal Gods
+| God | Description |
+|:--:|:---|
+| Arakaali | Spinner of Shadows, mother of spiders |
+| Yugul | Reflection of Terror |
+
+##### Azmeri and Maraketh Gods
+| God | Description |
+|:---:|:----|
+| Lunaris | Goddess of the Moon, sister to Solaris |
+| Solaris | Goddess of the Sun, sister to Lunaris |
+| Garukhan | Goddess of the Winds, wife of Sin |
+| Shakari | Queen of the Sands, daughter to Garukhan and Sin |
+| Sin | ? |
+| Innocence | ? |
+| Ryslatha | The Puppet Mistress |
+
+\page
+
+##### Karui Gods
+| God | Description |
+|:---:|:----|
+| Arohongui | Daughter of the Moon |
+| Hinekora | Mother of the Dead |
+| Kitava | God of Corruption, Father of Chaos |
+| Ngamahu | Mother of Fire |
+| Ramako | Father of Light |
+| Tasalio | Father of Water |
+| Tawhoa | Father of the Forest |
+| Tukohama | Father of War |
+| Valako | Father of Storms |
+
+# Virtue Gems
+Virtue gems provide powerful abilities to their wielders, allowing them cast spells or modify their attacks. In order to use a skill gem, you must be holding it in your hand, you must be attuned to it, or it must be socketed in a magic item that you are using.
+
+### Using Gems
+
+To use any skill gem, you must first pay the mana requirements. Using an attack skill gem requires an attack, and using a spell skill gem requires an action.
+
+Attack skill gems normally cost mana equal to their tier. Spell skill gems normally cost mana equal to half your proficiency (rounded down) for tier one, and equal to your proficiency for tier two. If you use your action to use a channeling skill, you can use your bonus action to use it again. Spell channeling skills cost PRO/3 or PRO/2 mana (instead of the normal PRO/2 or PRO).
+
+Ex: A level 5 Fighter has a tier 1 Ground Slam, an attack skill gem, a tier 2 Ice Nova, a spell skill gem, and a tier 1 Blight. He could use his action to make two attacks with Ground Slam, each time spending 1 mana (for a total of two mana), or he could use his action to cast Ice Nova by spending 3 mana. He could also use his action and his bonus action to cast blight twice, after spending 2 mana.
+
+Some gems will require the targets to make saving throws. The DCs of these saving throws is determined by the color of the gem. If the gem is blue, the DC is equal to 8 + your Intelligence modifier if it is a lesser gem, or 8 + your proficiency modifier + your Intelligence modifier if it is a greater gem. If the gem is red, the DC is equal to 8 + your Strength modifier if it is a lesser gem, or 8 + your proficiency modifier + your Strength modifier if it is a greater gem. If the gem is green, the DC is equal to 8 + your Dexterity modifier if it is a lesser gem, or 8 + your proficiency modifier + your Dexterity modifier if it is a greater gem.
+
+When using an active skill gem, you can spend mana to enhance the skill with a support skill gem, as long as the requirements are met. You must either be attuned to the support skill gem or have is socketed in the same item as the active skill gem.
+
+Some spell skill gems require a spell attack. If you are a spellcaster, use your normal spell attack modifier. Otherwise, your spell attack modifier for this skill is equal to your intelligence modifier plus your proficiency modifier.
+
+### Mana
+
+A character has mana equal to their level, plus their proficiency modifier, plus their intelligenc modifier, if it is positive. A level 1 character with 16 Intelligence will have 1 + 2 + 3 = 6 mana, and a level 5 character with 4 Intelligence will have (since their intelligence modifier is negative) 5 + 3 = 8 mana.
+
+A character regenerates all their mana after performing a long rest. 
+
+## Ailments
+
+When a creature is hit with an attack or a spell, there is a chance that it will be affected by an ailment. Ailments are persistant conditions that are associated with  different types of damage.
+
+##### Ailments and Damage Types
+| Damage Type | Ailment | Base Threshold |
+|:----:|:-----:|:-------------|
+| Fire  | Ignite | 1 |
+| Cold  | Chill | 1 |
+| Lightning | Shock | 1 |
+| Slashing | Bleeding | 0 |
+| Piercing | Bleeding | 0 |
+| Bludgeoning | Stun | 0 |
+| Radiant | Ignite | 1 |
+| Necrotic | Inflict | 1 |
+
+\page
+
+In order to cause an ailment, the threshold must be rolled in an attack or a saving throw. For an attack, the threshold number indicates the range, starting from 20, that you must roll to hit the threshold. For a saving throw, the threshold number indicates the range starting from 1, that you must roll to hit the threshold. A threshold of 0 can not be hit. The threshold can be modified by skills and magic items. If an attack has no threshold of a particular type, it cannot receive modifiers to that threshold.
+
+Ex: Kor makes a spell attack with firestrike, which has an ignite threshold of 3. If he rolls 18-20, he will ignite the target. He also casts Frost Bolt, which has a chill threshold of 4. If a creature hit rolls 1-4 on its saving throw, it becomes chilled.
+
+##### Chill & Frozen
+
+A creature that is chilled has their movement speed halved, cannot take reactions, and cannot attack more than once per turn. When a Chilled creature becomes chilled again, it must make a CON saving throw or be frozen. Chill lasts for 2 rounds.
+
+A creature that is frozen cannot move, speak, or take any actions 1 round, after which, they thaw out and return to a Chilled state with a refreshed duration on the Chill.
+
+##### Ignite
+
+A creature that is ignited burns for 1d4 fire damage at the start of its turn. Ignite lasts for 4 rounds.
+
+##### Shock
+
+When attacking a creature that is shocked, you have advantage on your damage rolls. Shock lasts for 2 rounds.
+
+##### Bleeding
+
+A creature that is bleeding takes 2 damage at the end of each of its turns. Moving while bleeding doubles the damage from bleeding. Bleeding lasts until it is healed with any healing spell or if a successful DC 12 Medicine check is made. If a healing spell is used to heal bleeding, you do not gain any health from it.
+
+##### Inflict
+
+A creature that is inflicted takes necrotic damage at the start of its turn equal to 1/4 the combined physical and necrotic damage dealt to it. Inflicted lasts for 2 rounds.
+
+##### Stun
+
+When the Stun Threshold is hit, the creature must make a Constitution Saving Throw or be stunned.
+
+\page
+
+# Prologue
+
+## Twilight Strand
+This campaign begins with members of the party aboard a ship sailing through stormy seas. They are criminals, maybe innocent, but with varying severity of crimes, who have been exiled to Wraeclast. They will be brought on deck and lined up, where they will hear the captain reading the letters of exile. After completing a letter, the captain will place the letter on the person. When he has finished all the letters, each prisoner will be pushed overboard.
+
+Each player will make a Constitution saving throw, which will determine in which order they come to consciousness on the shore, with each point translating into 6 sec (1 round) earlier. Upon waking, each character will find themselves washed ashore, where they will see a raging sea behind them, and before filthy grey sand covered with wreckage, rocks, and corpses. Beyond the shore tower rocky crags and cliffs, which extend out into the sea on the left. To the right, in the distance, they can see a light. They will see people walking all along the beach, but on 15+ they will recognize them as zombies. Each player that wakes up will be within 50 ft. of the players that are already away. After the first time a player scavenges, a Drowned, which appears to be a corpse until it moves, will stand up and attack them. If the players delays too long in an area, roll for a wandering monster (table M1). The beach is about 1000 ft. long, and is split into 8 sections, each 125 ft. long. The players will awaken in the first section and it will contain only 1 drowned. Any time the party enters a new section, roll for a full party encounter (table M2). Hillock will be in the last section. Behind him will be palisades surrounding a rocky outcrop, on top of which appears to be the ruins of a stone fortification.
+
+There will be a number of nonplayer exiles dependant on the number of players that will also be washed ashore. These exiles will work with the players, banding together to try to survive the undead, but they will take the brunt of the attacks and will likely die.
+
+##### NPC Exiles
+| # of Players | # of NPC Exiles |
+| :----: | :----|
+| 1-2 | 1 |
+| 3-4 | 2 |
+| 5+ | 3 |
+
+After killing the first drowned, the party will find their first skill gem. After 2 encounters, the party will find a chest containing an active skill gem for each player minus one. They should each get a gem that matches a weapon they possess, or one that their character would prefer.
+
+```
+```
+
+##### Starting Gems
+| Weapon Type | Skill Gems |
+|:----:|:---|
+| Club | Double Strike, Glacial Hammer, Heavy Strike, Spectral Throw |
+| Axe | Double Strike, Heavy Strike, Spectral Throw, Viper Strike |
+| Sword | Double Strike, Heavy Strike, Spectral Throw, Viper Strike |
+| Bow | Burning Arrow |
+| Dagger | Double Strike, Heavy Strike, Spectral Throw, Viper Strike |
+| Quarterstaff | Double Strike, Glacial Hammer, Heavy Strike, Spectral Throw |
+| Any | Firestrike |
+
+##### M1. Wandering Monsters
+| 1d6 | Enemies |
+|:----:|:-------------|
+| 1-2 | 1 Drowned |
+| 3-4 | 1 Hungry Corpses |
+| 5-6 | 1 Sand Spitter |
+
+##### M2. Full Party Encounters
+| 1d6 | Enemies |
+|:----:|:-------------|
+| 1 | # Drowned per party member|
+| 2 | # Hungry Corpses per party member |
+| 3 | # Drowned per party member & 1 Hungry Corpse |
+| 4 | # Hungry Corpses per party member +2 |
+| 5 | # Sand Spitters per party member |
+| 6 | # Drowned per party member & 2 Sand Spitters |
+
+Whenever the party tries to take a short rest, roll on the table below to see if their rest is interrupted. Precautions can be taken to better their odds, at the DMs discretion. The party cannot benefit from a long rest due to current conditions (cold rain, no cover, no dry spot, threat of enemies, etc.).
+
+##### Short Rest Encounters
+| 1d20 | Enemies |
+|:----:|:-------------|
+| 1-14 | No enemies |
+| 15-20 | 1d4 Hungry Corpses |
+
+A player can spend 5 minutes to scavenge an area to look for equipment. They roll on the table below, adding their investigation modifier for a chance at weapons. If another player assists them, they will have advantage on the roll. After this roll, they have broken open all of the crates, turned over all the rocks, and can find nothing else.
+
+<div class='pageNumber auto'></div>
+
+\page
+
+##### Scavenge
+| 1d20 | Loot |
+|:----:|:-------------|
+| 1-4 | You are interrupted by a Drowned |
+| 5-8 | You find nothing |
+| 9-12 | You find 1 weapon. Roll once on LootA |
+| 13-14 | You find 2 weapons. Roll twice on LootA |
+| 15-16 | You find 3 weapons. Roll 3 times on LootA |
+| 17-18 | You find 2 weapons and a set of armor. Roll twice on LootA and once on LootB |
+| 19-20 | You find 3 weapons and a set of armor. Roll 3 times on LootA and once on LootB |
+| 21+ | You find 4 weapons and 2 sets of armor. Roll 4 times on LootA and twice on LootB |
+
+
+##### Scavenged Items
+| Weapon | Description |
+| :----: | :-----------|
+| Glass Shank | Treat it as a dagger that cannot be thrown (1d4 P). |
+| Rusted " " | Treat it as a -1 weapon. |
+| Crude Bow | Treat it as a -1 shortbow (1d6-1 P). |
+| Wand | It fires a projectile dealing 1d4 B with range 60/240. |
+| Nailed Fist | A stick with nails that you hold in a closed fist. Finesse and Light, 1d4 P. |
+| Sceptre | It has the same properties as a club. |
+| Wisdom Scroll | This is a magic scroll that can be used to identify a magic item. |
+
+After completing a Full Party Encounter, have the players roll for the following table.
+
+##### Loot Table
+| 1d20 | Loot |
+|:----:|:-------------|
+| 1-5 | You find nothing |
+| 6-7 | You find a weapon. Roll on table LootA |
+| 8-9 | You find armor. Roll on table LootB |
+| 10 | You find a Wisdom Scroll. |
+| 11-12 | You find 2 weapons. Roll twice on table LootA |
+| 13-14 | You find 2 armor. Roll twice on table LootB |
+| 15 | You find a Wisdom Scroll. |
+| 16-17 | You find a magic weapon. Roll on table LootA, removing rusted or -1, and look up the item on table W1. |
+| 18-19 | You find magic armor. Roll on table LootB and look up the item on table A1. |
+| 20 | You find a magic weapon and a magic armor. Follow the instructions in the two rows above. |
+| 21+ | You find a gem. Roll on table LootC. |
+
+```
+```
+
+##### LootA
+| 1d20 | Loot |
+|:----:|:--------------|
+| 1-2 | You find a club. |
+| 3 | You find a greatclub. |
+| 4 | You find a sceptre. |
+| 5-6 | You find a rusted handaxe. |
+| 7 | You find a rusted battleaxe. |
+| 8-9 | You find a rusted shortsword. |
+| 10 | You find a rusted rapier. |
+| 11 | You find a rusted longsword. |
+| 12-13 | You find a crude bow. |
+| 14-15 | You find a nailed fist. |
+| 16-17 | You find a glass shank. |
+| 18-19 | You find a -1 quarterstaff. |
+| 20 | You find a wand. |
+
+##### LootB
+| 1d20 | Loot |
+|:----:|:--------------|
+| 1-4 | You find Hide Armor |
+| 5-8 | You find Padded Armor |
+| 9-10 | You find a Simple Robe (+2 ES) |
+| 11-14 | You find a wooden plank (+2 AC vs. ranged attacks, disadvantage on stealth). |
+| 15-18 | You find a Goathide Buckler (+1 AC). |
+| 19-20 | You find a Twig shield (+1 ES). |
+
+<div class='pageNumber auto'></div>
+
+\page
+
+##### LootC
+|1d20 | Loot |
+|:----:|:-------------|
+| 1-4 | Heavy Strike |
+| 5-8 | Double Strike |
+| 9-12 | Burning Arrow |
+| 13-16 | Viper Strike |
+| 17-20 | Fireball |
+| 21-24 | Glacial Hammer |
+| 25-28 | Spectral Throw |
+| 29-30 | Blight |
+| 31-32 | Freezing Pulse |
+| 33-34 | Lightning Tendrils |
+| 35-36 | Magma Orb |
+| 37-38 | Raise Zombie |
+| 39-40 | Ethereal Knives |
+| 41-42 | Purifying Flame (Cleric/Paladin Only) |
+| 43-44 | Frost Blades |
+| 45-46 | Lightning Tendrils |
+| 47-48 | Caustic Arrow |
+| 49-50 | Ice Shot |
+| 51-52 | Shrapnel Shot |
+| 53-54 | Split Shot |
+| 55-56 | Cleave |
+| 57-58 | Molten Strike |
+| 59-60 | Ground Slam |
+| 61-62 | Frostbolt |
+| 63-64 | Smite (Cleric/Paladin Only) |
+| 65-66 | Spark |
+| 67-68 | Dual Strike |
+| 69-72 | Ruthless |
+| 73-76 | Chance to Bleed |
+| 77-80 | Pierce |
+| 81-84 | Poison |
+| 85-88 | Arcane Surge |
+| 89-92 | Elemental Proliferation |
+| 92-96 | Onslaught |
+| 97-100 | Roll twice on this table, rerolling this result. |
+
+```
+```
+##### W1
+| Item | Basic Magic Property |
+|:----:|:--------------|
+| Club | +1 to Stun DC |
+| Greatclub | +1 to Stun DC |
+| Sceptre | +1 to Spell damage |
+| Handaxe | +1 to damage. |
+| Battle axe | +1 to damage. |
+| Shortsword | +1 to hit. |
+| Rapier | +2 crit damage. |
+| Longsword | +1 to hit. |
+| Crude Bow | +1 to hit. |
+| Nailed Fist | Regain 1 HP on hit. |
+| Glass Shank | Extend crit range by 1. |
+| Quarterstaff | +1 to AC. |
+
+##### A1
+| Item | Basic Magic Property |
+|:----:|:---------------|
+| Hide Armor | +1 damage reduction to physical damage |
+| Padded Armor | +1 AC |
+| Simple Robe | +1 ES |
+| Wooden Plank | +2 HP |
+| Goathide Buckler | +5' movement |
+| Twig Shield | +1 damage to spells |
+
+
+<div class='pageNumber auto'></div>
+
+\page
+___
+> ## Drowned
+>*Medium Undead, neutral evil*
+> ___
+> - **Armor Class** 8
+> - **Hit Points** 13(2d8 + 4)
+> - **Speed** 15 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|13 (+1)|6 (-2)|14 (+2)|3 (-4)|6 (-2)|5 (-3)|
+>___
+> - **Saving Throws** Wis +0
+> - **Damage Immunities** Poison
+> - **Condition Immunities** Poisoned
+> - **Senses** Darkvision 60 Ft., Passive Perception 8
+> - **Challenge** 1/8 (25 XP)
+>___
+> ***Sluggish.*** Drowned cannot dash or make attacks of opportunity.
+>
+> ### Actions
+> ***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5ft., one target. *Hit* 5 (1d6 + 1) bludgeoning damage.
+
+___
+> ## Hungry Corpse
+>*Medium Undead, neutral evil*
+> ___
+> - **Armor Class** 8
+> - **Hit Points** 22(3d8 + 9)
+> - **Speed** 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|13 (+1)|6 (-2)|16 (+3)|3 (-4)|6 (-2)|5 (-3)|
+>___
+> - **Saving Throws** Wis +0
+> - **Damage Immunities** Poison
+> - **Condition Immunities** Poisoned
+> - **Senses** Darkvision 60 Ft., Passive Perception 8
+> - **Challenge** 1/4 (50 XP)
+>
+> ### Actions
+> ***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5ft., one target. *Hit* 5 (1d6 + 1) bludgeoning damage.
+
+___
+> ## Sand Spitter
+>*Medium Beast, neutral*
+> ___
+> - **Armor Class** 12
+> - **Hit Points** 16(3d8 + 3)
+> - **Speed** 30 ft., swim 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|12 (+1)|12 (+1)|2 (-4)|10 (+0)|3 (-4)|
+>___
+> - **Saving Throws** Wis +0
+> - **Senses** Darkvision 30 Ft., Passive Perception 12
+> - **Challenge** 1/8 (50 XP)
+>
+> ### Actions
+> ***Rock Spit.*** *Ranged Weapon Attack:* +3 to hit, range 30 ft., one target. *Hit* 3 (1d4) bludgeoning damage.
+
+___
+> ## Hillock
+>*Large Undead, neutral evil*
+> ___
+> - **Armor Class** 8
+> - **Hit Points** 68(8d8 + 32)
+> - **Speed** 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|6 (-2)|18 (+4)|3 (-4)|6 (-2)|5 (-3)|
+>___
+> - **Saving Throws** Wis +0
+> - **Damage Immunities** Poison
+> - **Condition Immunities** Poisoned
+> - **Senses** Darkvision 60 Ft., Passive Perception 12
+> - **Challenge** 1 (200 XP)
+>
+>___
+> ***Fury.*** Hillock will attack with his fists. When Hillock becomes bloodied, at the start of his next turn, he will pull a sword from body and make attacks with it instead.
+>
+> ### Actions
+> ***Punch.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit* 4 (1 + 3) bludgeoning damage.
+>
+> ***Sword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit* 7 (1d6 + 3) slashing damage. Crits on 19-20.
+>
+> ***Multiattack***: Hillock will make two attacks with his sword.
+>
+> ***Leap Slam.*** If two or more targets are within 5' of each other and within 30' of Hillock, Hillock leaps towards one, making an attack with his current weapon against the target and every enemy within 5'. Enemies hit must pass a DC 11 Constitution Saving Throw or be knocked back 5'.
+
+<div class='pageNumber auto'></div>
+
+\page
+
+After the party defeats Hillock, give them the Leap Slam gem and Hillock's Sword, and then have them roll on the Loot table twice with +5.
+
+### Hillock's Sword
+*Weapon, rare (longsword, requires attunement)*
+
+<img 
+  src='https://www.poe-vault.com/uploads/poe-items/j0mg4-oni-goroshi.png' 
+  style='width:125px' />
+*Shaped like a falchion, this sword is made from an unknown silver-grey metal. The pommel is a hollow circle with two crossing bars, and just above the crossguard is an ornate lattice made from gold, the ends of which are shaped like leaves.*
+
+___
+You gain a +1 bonus to attacks with this weapon. This weapon crits on 19-20. You cannot use another weapon or a shield while wielding this.
+
+There is still something unknown about this sword.
+
+<div class='pageNumber auto'></div>
+
+\page
