@@ -1,21 +1,17 @@
-<div class='toc'>
-##### Table Of Contents
-- **[Exiled in Wraeclast](#p2)**
-  - [1.1 Setting](#p2)
-  - [1.2 Who are the players?](#p2)
-  - [1.3 Dieties](#p2)
-- **[Virtue Gems](#p3)**
-  - [2.1 ](#p3)
-    - [2.1.1 Using Gems](#p3)
-    - [2.1.2 Mana](#p3)
-  - [2.2 Ailments](#p3)
-- **[Prologue](#p5)**
-  - [3.1 Twilight Strand](#p5)
-    - [3.1.1 Hillock's Sword](#p9)
-</div>
+## Table Of Contents
+- **Exiled in Wraeclast**
+  - [Setting]
+  - [Who are the players?]
+  - [Dieties]
+- **Virtue Gems**
+  - Using Gems
+  - Mana
+  - Ailments
+- **Prologue**
+  - Twilight Strand
+  - Hillock's Sword
 
-
-\page
+---
 
 # Exiled in Wraeclast
 
@@ -113,7 +109,7 @@ Tsoagoth, the Brine King?
 | Innocence | ? |
 | Ryslatha | The Puppet Mistress |
 
-\page
+---
 
 ##### Karui Gods
 | God | Description |
@@ -167,7 +163,7 @@ When a creature is hit with an attack or a spell, there is a chance that it will
 | Radiant | Ignite | 1 |
 | Necrotic | Inflict | 1 |
 
-\page
+---
 
 In order to cause an ailment, the threshold must be rolled in an attack or a saving throw. For an attack, the threshold number indicates the range, starting from 20, that you must roll to hit the threshold. For a saving throw, the threshold number indicates the range starting from 1, that you must roll to hit the threshold. A threshold of 0 can not be hit. The threshold can be modified by skills and magic items. If an attack has no threshold of a particular type, it cannot receive modifiers to that threshold.
 
@@ -199,7 +195,7 @@ A creature that is inflicted takes necrotic damage at the start of its turn equa
 
 When the Stun Threshold is hit, the creature must make a Constitution Saving Throw or be stunned.
 
-\page
+---
 
 # Prologue
 
@@ -260,9 +256,7 @@ Whenever the party tries to take a short rest, roll on the table below to see if
 
 A player can spend 5 minutes to scavenge an area to look for equipment. They roll on the table below, adding their investigation modifier for a chance at weapons. If another player assists them, they will have advantage on the roll. After this roll, they have broken open all of the crates, turned over all the rocks, and can find nothing else.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ##### Scavenge
 | 1d20 | Loot |
@@ -335,9 +329,7 @@ After completing a Full Party Encounter, have the players roll for the following
 | 15-18 | You find a Goathide Buckler (+1 AC). |
 | 19-20 | You find a Twig shield (+1 ES). |
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ##### LootC
 |1d20 | Loot |
@@ -407,9 +399,7 @@ After completing a Full Party Encounter, have the players roll for the following
 | Twig Shield | +1 damage to spells |
 
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 ___
 > ## Drowned
 >*Medium Undead, neutral evil*
@@ -503,18 +493,13 @@ ___
 >
 > ***Leap Slam.*** If two or more targets are within 5' of each other and within 30' of Hillock, Hillock leaps towards one, making an attack with his current weapon against the target and every enemy within 5'. Enemies hit must pass a DC 11 Constitution Saving Throw or be knocked back 5'.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 After the party defeats Hillock, give them the Leap Slam gem and Hillock's Sword, and then have them roll on the Loot table twice with +5.
 
 ### Hillock's Sword
 *Weapon, rare (longsword, requires attunement)*
 
-<img 
-  src='https://www.poe-vault.com/uploads/poe-items/j0mg4-oni-goroshi.png' 
-  style='width:125px' />
 *Shaped like a falchion, this sword is made from an unknown silver-grey metal. The pommel is a hollow circle with two crossing bars, and just above the crossguard is an ornate lattice made from gold, the ends of which are shaped like leaves.*
 
 ___
@@ -522,6 +507,4 @@ You gain a +1 bonus to attacks with this weapon. This weapon crits on 19-20. You
 
 There is still something unknown about this sword.
 
-<div class='pageNumber auto'></div>
-
-\page
+---

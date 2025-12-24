@@ -58,9 +58,7 @@ After the first time a player scavenges, a Drowned, which appears to be a corpse
 
 After killing the first drowned, the party will find their first skill gem. The gem should match a weapon they possess, or one that their character would prefer. If you want to roll for a gem, use table G1.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ##### Starting Gems
 | Weapon Type | Skill Gems |
@@ -141,9 +139,7 @@ When looting bodies, for every monster killed, roll on the Loot Table. Used the 
 | 22-24 | You find 2 weapons. Roll on table LootA twice. |
 | 25+ | You find 2 armor. Roll on table LootB twice. |
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ##### LootA
 | 1d20+CR | Loot |
@@ -224,9 +220,7 @@ When looting bodies, for every monster killed, roll on the Loot Table. Used the 
 | 97+ | Roll twice on this table, rerolling this result. |
 
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ##### W1
 | Item | Basic Magic Property |
@@ -255,9 +249,7 @@ When looting bodies, for every monster killed, roll on the Loot Table. Used the 
 | Twig Shield | +1 damage to spells |
 
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 ___
 > ## Drowned
 >*Medium Undead, neutral evil*
@@ -351,9 +343,7 @@ ___
 >
 > ***Leap Slam.*** If two or more targets are within 5' of each other and within 30' of Hillock, Hillock leaps towards one, making an attack with his current weapon against the target and every enemy within 5'. Enemies hit must pass a DC 11 Constitution Saving Throw or be knocked back 5'.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ___
 > ## Exile
@@ -374,10 +364,6 @@ ___
 > ### Actions
 > ***Rock Spit.*** *Unarmed Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4+1) bludgeoning damage.
 
-<img 
-  src='https://www.poewiki.net/w/images/e/ec/Oni-Goroshi_inventory_icon.png' 
-  style='width:125px' />
-
 ### Hillock's Sword
 *Weapon, rare (longsword, requires attunement)*
 
@@ -389,9 +375,7 @@ You gain a +1 bonus to attacks with this weapon. This weapon crits on 19-20. You
 
 There is still something unknown about this sword.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 
 ## Skill Gems
@@ -470,9 +454,7 @@ This is a blue gem with gold gilding.
 
 **Lesser**: As an action, you can spend mana equal to half your proficiency modifier (1-3) to cast Firestrike. Make a spell attack with +4 to ignite Threshold against a target within 60' and on hit deal (1d4)xPRO fire damage. A creature ignited by Firestrike takes 1d6 fire damage from ignite.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ### Freezing Pulse
 *Skill Gem, Spell, Projectile*
@@ -548,9 +530,7 @@ This is a blue gem with gold gilding.
 
 **Lesser**: As an action, you can spend mana equal to half your proficient modifier (1-3) to cast Magma Orb. You throw a molten ball of rock up to 15' away, exploding in a 5' diameter circle and chaining once. When the orb chains, it continues in the same direction and travels the same distance. Enemies that are within the explosion take (1d6)xPRO fire damage or half damage on a successful DC = 8 + PRO + INT Dexterity Saving Throw.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ### Molten Strike
 *Skill Gem, Attack, Melee, Projectile, Fire, Area of Affect*

@@ -1,6 +1,6 @@
-<div class='spellList'>
+# Gems By Act
 
-##### Twilight Strand
+## Twilight Strand
 - Arcane Surge Support
 - Blight
 - Burning Arrow
@@ -37,7 +37,7 @@
 - Stormblast Mine
 - Viper Strike 
 
-##### Act 1
+## Act1
 - Added Cold Damage Support
 - Added Fire Damage Support
 - Added Lightning Damage Support
@@ -182,7 +182,7 @@
 - Wither
 - Withering Step
 
-##### Act 2
+## Act2
 - Arctic Armour
 - Blood Rage
 - Bloodlust Support
@@ -219,14 +219,6 @@
 - Plague Bearer
 - Physical to Lightning Support
 - Point Blank Support
-
-
-</div>
-
-\page
-
-<div class='spellList'>
-
 - Power Charge On Critical Support
 - Righteous Fire
 - Summon Skitterbots
@@ -234,7 +226,7 @@
 - Trap and Mine Damage Support
 - Vicious Projectiles Support
 
-##### Act 3 
+## Act3 
 - Advanced Traps Support
 - Ancestral Warchief
 - Anger
@@ -342,7 +334,7 @@
 - Wrath
 - Zealotry
 
-##### Act 4 
+## Act4 
 - Abyssal Cry
 - Bonechill Support
 - Brutality Support
@@ -375,12 +367,12 @@
 - Vile Toxins Support
 - Withering Touch Support
 
-##### Act 5 
+## Act5 
 - ?
 - ?
 - ?
 
-##### Act 6+
+## Act6+
 - Abyssal Cry
 - Added Cold Damage Support
 - Added Fire Damage Support
@@ -445,13 +437,6 @@
 - Cold Snap
 - Cold to Fire Support
 - Combustion Support
-
-</div>
-
-\page
-
-<div class='spellList'>
-
 - Concentrated Effect Support
 - Conductivity
 - Consecrated Path
@@ -668,13 +653,6 @@
 - Summon Holy Relic
 - Summon Ice Golem
 - Summon Lightning Golem
-
-</div>
-
-\page
-
-<div class='spellList'>
-
 - Summon Phantasm on Kill Support
 - Summon Raging Spirit
 - Summon Skeleton
@@ -718,9 +696,6 @@
 - Wrath
 - Zealotry
 
-```
-```
-
 ##### Cleric and Paladin Only Skills
   
   - Consecrated Path
@@ -732,5 +707,3 @@
   - Summon Holy Relic
   - Wave of Conviction
   - Zealotry
-
-</div>

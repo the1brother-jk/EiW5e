@@ -1,51 +1,45 @@
-<div class='toc'>
-##### Table Of Contents
-- **[1 Skill Gems](#p2)**
-  - [1.1 Active Skill Gems](#p2)
-    - [1.1.1 Blight](#p2)
-    - [1.1.2 Burning Arrow](#p2)
-    - [1.1.3 Caustic Arrow](#p2)
-    - [1.1.4 Cleave](#p2)
-    - [1.1.5 Double Strike](#p2)
-    - [1.1.6 Ethereal Knives](#p2)
-    - [1.1.7 Firestrike](#p3)
-    - [1.1.8 Freezing Pulse](#p3)
-    - [1.1.9 Frost Blades](#p3)
-    - [1.1.10 Frost Bolt](#p3)
-    - [1.1.11 Glacial Hammer](#p3)
-    - [1.1.12 Ground Slam](#p3)
-    - [1.1.13 Heavy Strike](#p3)
-    - [1.1.14 Ice Shot](#p4)
-    - [1.1.15 Leap Slam](#p4)
-    - [1.1.16 Lightning Tendrils](#p4)
-    - [1.1.17 Magma Orb](#p4)
-    - [1.1.18 Molten Strike](#p4)
-    - [1.1.19 Purifying Flame](#p4)
-    - [1.1.20 Raise Zombie](#p5)
-    - [1.1.21 Shrapnel Shot](#p5)
-    - [1.1.22 Smite](#p5)
-    - [1.1.23 Spectral Throw](#p5)
-    - [1.1.24 Split Shot](#p5)
-    - [1.1.25 Viper Strike](#p5)
-  - [1.2 Support Skill Gems](#p5)
-    - [1.2.1 Arcane Surge](#p5)
-    - [1.2.2 Chance to Bleed](#p6)
-    - [1.2.3 Elemental Proliferation](#p6)
-    - [1.2.4 Onslaught](#p6)
-    - [1.2.5 Pierce](#p6)
-    - [1.2.6 Poison](#p6)
-    - [1.2.7 Ruthless](#p6)
-</div>
+## Table Of Contents
+- [Active Skill Gems]
+  - [Blight]
+  - [Burning Arrow]
+  - [Caustic Arrow]
+  - [Cleave]
+  - [Double Strike]
+  - [Ethereal Knives]
+  - [Firestrike]
+  - [Freezing Pulse]
+  - [Frost Blades]
+  - [Frost Bolt]
+  - [Glacial Hammer]
+  - [Ground Slam]
+  - [Heavy Strike]
+  - [Ice Shot]
+  - [Leap Slam]
+  - [Lightning Tendrils]
+  - [Magma Orb]
+  - [Molten Strike]
+  - [Purifying Flame]
+  - [Raise Zombie]
+  - [Shrapnel Shot]
+  - [Smite]
+  - [Spectral Throw]
+  - [Split Shot]
+  - [Viper Strike]
+- [Support Skill Gems]
+  - [Arcane Surge]
+  - [Chance to Bleed]
+  - [Elemental Proliferation]
+  - [Onslaught]
+  - [Pierce]
+  - [Poison]
+  - [Ruthless]
 
-
-
-<div class='pageNumber auto'></div>
-
-
-\page
+---
 
 # Skill Gems
+
 ## Active Skill Gems
+
 ### Blight
 *Skill Gem, Spell, Channelling, Duration, Area of Affect*
 
@@ -100,9 +94,7 @@ This is a green gem with gold gilding.
 
 **Greater**: As an action, you may spend mana equal to your proficiency modifier (2-6) to cast Ethereal Knives. You fire 6+PRO ethereal knives in a 20' cone in front of you. You decide what targets the knives hit, up to a maximum of three per target. Each target takes 1d6 piercing damage per knife that hits them or half damage on a successful DC = 8 + PRO + DEX Dexterity saving throw.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ### Firestrike
 *Skill Gem, Spell, Projectile*
@@ -167,9 +159,7 @@ This is a red gem with gold gilding.
 
 **Greater**: When making a melee attack, you may spend 2 mana to make a Heavy Strike. When making a Heavy Strike, your attack has +5 to Stun Threshold and on hit deals a bonus 1d10 damage and knocks the target back 10'.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ### Ice Shot
 *Skill Gem, Attack, Projectile, Area of Affect, Duration, Cold, Ranged*
@@ -225,9 +215,7 @@ This is a blue gem with gold gilding.
 
 **Greater**: As an action, you can spend mana equal to your proficiency modifier (2-6) to cast Purifying Flame. Make a spell attack against a target within 30'. On hit, the target takes (1d8)xPRO/2 radiant damage, and Consecrated Ground is created in a 5' circle centered on the target. Then, every enemy on Consecrated Ground within 120' takes (1d8)xPRO/2 radiant damage.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 ### Raise Zombie
 *Skill Gem, Spell, Minion*
@@ -291,9 +279,7 @@ This is a blue gem with gold gilding.
 
 **Lesser**: When using a spell skill, you may spend 1 mana to give the skill Heightening. Whenever you spend a total of 6 mana on a Heightened skill, take a d6 as an Arcane Surge die. You may only have 1 Arcane Surge die at a time. At any time, you may spend the Arcane Surge die to add 5' to your movement or to roll it and add the result to one of the following: Spell attacks, spell damage, and WIS and INT ability checks.
 
-<div class='pageNumber auto'></div>
-
-\page
+---
 
 **Greater**: When using a spell skill, you may spend 2 mana to give the skill Heightening. Whenever you spend a total of 18 mana on a Heightened skill, take a d8 as an Arcane Surge die. You may only have 2 Arcane Surge die at a time. At any time, you may spend the Arcane Surge die to add 5' to your movement or to roll it and add the result to one of the following: Spell attacks, spell damage, and WIS and INT ability checks.
 
@@ -350,8 +336,6 @@ This is a red gem with gold gilding.
 **Lesser**: When using a melee attack skill, you may spend 1 mana to make the attack ruthless. You have disadvantage on the attack, and roll an extra die for the damage. If this skill causes bleeding, the bleeding damage is increased by 3.
 
 **Greater**: When using a melee attack skill, you may spend 1 mana to make the attack ruthless. You have disadvantage on the attack, and roll 2 extra die for the damage. If this skill causes bleeding, the bleeding damage is increased by 3.
-
-<div class='pageNumber auto'></div>
 
 
 
