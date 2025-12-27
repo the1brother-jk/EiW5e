@@ -41,13 +41,13 @@
 ## Active Skill Gems
 
 ### Blight
-*Skill Gem, Spell, Channelling, Duration, Area of Affect*
+*Skill Gem, Spell, Channeling, Duration, Area of Affect*
 
 This is a blue gem with gold gilding.
 
-**Lesser**: As an action, you may pay mana equal to a third of your proficiency (1-2) to channel blight. If you channelled blight as an action, you may also channel it as a bonus action. You release a wave of black withering energy in front of you. Each enemy in a 10' cone recieves a stack of blight. If they did not previously have any blight, they must pass a Constitution Saving throw with DC = 8 + INT or their movement is reduced by 25', to a minimum of 5' for one round. At the start of their turn, a creature with blight takes necrotic damage equal to your proficiency modifier for each stack of blight on them. Each stack lasts for 4 rounds and there can only be 10 stacks at max.
+**Lesser**: As an action, you may pay mana equal to a third of your proficiency (1-2) to channel blight. If you channeled blight as an action, you may also channel it as a bonus action. You release a wave of black withering energy in front of you. Each enemy in a 10' cone receives a stack of blight. If they did not previously have any blight, they must pass a Constitution Saving throw with DC = 8 + INT or their movement is reduced by 25', to a minimum of 5' for one round. At the start of their turn, a creature with blight takes necrotic damage equal to your proficiency modifier for each stack of blight on them. Each stack lasts for 4 rounds and there can only be 10 stacks at max.
 
-**Greater**: As an action, you may pay mana equal to a half of your proficiency (1-3) to channel blight. If you channelled blight as an action, you may also channel it as a bonus action. You release a wave of black withering energy in front of you. Each enemy in a 15' cone recieves a stack of blight. If they did not previously have any blight, they must pass a Constitution Saving throw with DC = 8 + PRO + INT or their movement is reduced by 35', to a minimum of 5' for one round. At the start of their turn, a creature with blight takes necrotic damage equal to your proficiency modifier for each stack of blight on them. Each stack lasts for 5 rounds and there can only be 10 stacks at max.
+**Greater**: As an action, you may pay mana equal to a half of your proficiency (1-3) to channel blight. If you channeled blight as an action, you may also channel it as a bonus action. You release a wave of black withering energy in front of you. Each enemy in a 15' cone receives a stack of blight. If they did not previously have any blight, they must pass a Constitution Saving throw with DC = 8 + PRO + INT or their movement is reduced by 35', to a minimum of 5' for one round. At the start of their turn, a creature with blight takes necrotic damage equal to your proficiency modifier for each stack of blight on them. Each stack lasts for 5 rounds and there can only be 10 stacks at max.
 
 ### Burning Arrow
 *Skill Gem, Attack, Ranged, Ignite, Projectile*
@@ -56,7 +56,7 @@ This is a green gem with gold gilding.
 
 **Lesser**: When making a ranged attack with a bow or crossbow, you may spend 1 mana to use Burning Arrow. Burning Arrow deals an extra 1d4 fire damage and has +1 to ignite threshold. Targets ignited by Burning Arrow take 1d6 fire damage from ignite.
 
-**Greater**: When making a ranged attack with a bow or crossbow, you may spend 2 mana to use Burning Arrow. Burning Arrow dealls an extra 1d8 fire damage and has +2 to ignite threshold. Targets ignited by Burning Arrow take 1d8 fire damage from ignite.
+**Greater**: When making a ranged attack with a bow or crossbow, you may spend 2 mana to use Burning Arrow. Burning Arrow deals an extra 1d8 fire damage and has +2 to ignite threshold. Targets ignited by Burning Arrow take 1d8 fire damage from ignite.
 
 ### Caustic Arrow
 *Skill Gem, Attack, Ranged, Projectile, Area of Affect*

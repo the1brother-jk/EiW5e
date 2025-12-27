@@ -94,21 +94,19 @@ Tsoagoth, the Brine King?
 
 # Virtue Gems
 
-Virtue gems provide powerful abilities to their wielders, allowing them cast spells or modify their attacks. In order to use a skill gem, you must be holding it in your hand, you must be attuned to it, or it must be socketed in a magic item that you are using.
+Virtue gems provide powerful abilities to their wielders, allowing them cast spells or modify their attacks. In order to use a skill gem, you must be holding it in your hand, you must be attuned to it, or it must be socketed in a magic item that you are using. They come in three tiers, lesser, standard, and greater, and there are other rarer varieties as well.
 
 ## Using Gems
 
-To use any skill gem, you must first pay the mana requirements. Using an attack skill gem requires an attack, and using a spell skill gem requires an action.
+To use any skill gem, you must first pay the mana requirements. Using an attack skill gem requires an attack, and using a spell skill gem requires an action. If you use your action to use a channeling skill, you can use your bonus action to use it again. To use an aura skill gem, you need to concentrate on it for 1 minute, and it will last until your next long rest.
 
-Attack skill gems normally cost mana equal to their tier. Spell skill gems normally cost mana equal to half your proficiency (rounded down) for tier one, and equal to your proficiency for tier two. If you use your action to use a channeling skill, you can use your bonus action to use it again. Spell channeling skills cost PRO/3 or PRO/2 mana (instead of the normal PRO/2 or PRO).
+Skill gems normally cost mana equal to half your proficiency (rounded down) for lesser gems, equal to your proficiency for standard gems, and euqal to 3 plus your proficiency for greater gems. Spell channeling skills cost PRO/3, PRO/2, or PRO/2 + 2 mana for lesser, standard, or greater gems (instead of the normal PRO/2, PRO, and PRO + 3). Auras require reserving mana, which is used when activating the aura and cannot be recovered. The reservation amount is equal to your proficiency + 1 for lesser gems, 2 times your proficiency for standard gems, and 3 times your proficiency for greater gems.
 
-**Example:** A level 5 Fighter has a tier 1 Ground Slam, an attack skill gem, a tier 2 Ice Nova, a spell skill gem, and a tier 1 Blight. He could use his action to make two attacks with Ground Slam, each time spending 1 mana (for a total of two mana), or he could use his action to cast Ice Nova by spending 3 mana. He could also use his action and his bonus action to cast blight twice, after spending 2 mana.
+**Example:** A level 5 Fighter has a lesser Ground Slam, an attack skill gem, a standard Ice Nova, a spell skill gem, and a lesser Blight. He could use his action to make two attacks with Ground Slam, each time spending 2 mana (for a total of 4 mana), or he could use his action to cast Ice Nova by spending 3 mana. He could also use his action and his bonus action to cast blight twice, after spending 2 mana.
 
-Some gems will require the targets to make saving throws. The DCs of these saving throws is determined by the color of the gem. If the gem is blue, the DC is equal to 8 + your Intelligence modifier if it is a lesser gem, or 8 + your proficiency modifier + your Intelligence modifier if it is a greater gem. If the gem is red, the DC is equal to 8 + your Strength modifier if it is a lesser gem, or 8 + your proficiency modifier + your Strength modifier if it is a greater gem. If the gem is green, the DC is equal to 8 + your Dexterity modifier if it is a lesser gem, or 8 + your proficiency modifier + your Dexterity modifier if it is a greater gem.
+Skill gems will sometimes require attack rolls and some gems will require the targets to make saving throws. For attack skills, the ability used is dependent on the weapon used, and the DC is based on the same ability: 8 + proficiency bonus + the ability modifier. If it is a spell gem, you use your spellcasting attack bonus and DC. If you have no spellcasting attack bonus or DC, when you first use or attune to a spell skill gem, you pick Intelligence, Wisdom, or Charisma. an ability that you will use with them. The attack bonus you use when using the skill gem is equal to your proficiency + the ability modifier (min 0) and the DC of the saving throw is equal to 8 + your proficiency + the ability modifier (min 0).
 
 When using an active skill gem, you can spend mana to enhance the skill with a support skill gem, as long as the requirements are met. You must either be attuned to the support skill gem or have is socketed in the same item as the active skill gem.
-
-Some spell skill gems require a spell attack. If you are a spellcaster, use your normal spell attack modifier. Otherwise, your spell attack modifier for this skill is equal to your intelligence modifier plus your proficiency modifier.
 
 ## Mana
 
