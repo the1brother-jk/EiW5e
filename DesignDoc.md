@@ -2,6 +2,10 @@
 
 Every skill gem come in three tiers, Lesser, Standard, and Greater, with Vaal Skill Gems being a special case. The cost and effects of a skill gem scale with the proficiency bonus, PRO, of the character.
 
+Names:
+  * If the name of the skill matches a spell that already exists in D&D, change it to something appropriate. These have been changed so far:
+    * Fireball -> Firestrike
+
 Mana Cost:
   * This scales based on the tier of the skill, rounding up:
     * Lesser skill gems: 1/2 * PRO
