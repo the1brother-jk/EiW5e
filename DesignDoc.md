@@ -31,7 +31,7 @@ Ailments:
 	
 Damage:
   * At every tier, damage scaled based on proficiency bonus: ex. PRO*(1d4)
-  * As the gem increases in tier, generally the damage dice increase in size: 1d6 -> 1d8 -> 1d10
+  * As the gem increases in tier, generally the damage dice increase in size: ex. 1d4 -> 1d6 -> 1d8
 
 Duration:
   * Duration is generally either 4 rounds or 1 minute (10 rounds), but this can be varied dependent on the skill gem.

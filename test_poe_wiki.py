@@ -4,196 +4,194 @@ import html
 import httpx
 import json
 from parse_skill_html import parse_skill_html
+from poe_wiki_mcp import cargo_query, get_gem_info, get_gem_levels, get_related_gems, get_skill_html, get_skill_list, search_gems
 import re
 
 WIKI_API = "https://www.poewiki.net/w/api.php"
 
-async def cargo_query(tables: str, fields: str, where: str = "", join_on: str = "", limit: int = 50) -> dict:
-    params = {
-        "action": "cargoquery",
-        "format": "json",
-        "tables": tables,
-        "fields": fields,
-        "limit": limit,
-    }
-    if where:
-        params["where"] = where
-    if join_on:
-        params["join_on"] = join_on
-    
-    async with httpx.AsyncClient() as client:
-        resp = await client.get(WIKI_API, params=params)
-        return resp.json()
-
-async def get_gem_info(gem_name: str) -> str:
-    result = await cargo_query(
-        tables="skill_gems,skill,skill_levels",
-        fields="skill_gems._pageName=name,skill_gems.gem_tags,skill.cast_time,skill.description,skill.stat_text,skill.radius,skill.html,"
-               "skill_levels.damage_effectiveness,skill_levels.critical_strike_chance,skill_levels.cost_amounts,"
-               "skill_levels.level_requirement,skill_levels.strength_requirement,skill_levels.dexterity_requirement,skill_levels.intelligence_requirement",
-        where=f'skill_gems._pageName="{gem_name}" AND skill_levels.level=1',
-        join_on="skill_gems._pageID=skill._pageID,skill_gems._pageID=skill_levels._pageID"
-    )
-    
-    if not result.get("cargoquery"):
-        return f"No gem found with name '{gem_name}'"
-    
-    gems = []
-    for row in result["cargoquery"]:
-        data = row["title"]
-        raw_html = data.get("html", "")
-        
-        decoded_html = html.unescape(raw_html)
-        
-        # Extract reservation
-        res_match = re.search(r'<th>Reservation</th><td[^>]*>([^<]+)</td>', decoded_html)
-        if res_match:
-            data["reservation"] = res_match.group(1)
-        
-        # Extract cost multiplier
-        mult_match = re.search(r'<th>Cost and Reservation Multiplier</th><td[^>]*>([^<]+)</td>', decoded_html)
-        if mult_match:
-            data["cost_multiplier"] = mult_match.group(1)
-        
-        # Remove the bulky html field from output
-        del data["html"]
-        gems.append(data)
-    
-    return json.dumps(gems, indent=2)
-
-async def get_gem_levels(gem_name: str, levels: str = "1,20") -> str:
-    level_list = [l.strip() for l in levels.split(",")]
-    level_condition = " OR ".join([f"skill_levels.level={l}" for l in level_list])
+async def debug_base_gems():
+    # Step 1: Just check what base_item_id looks like for base vs variant gems
+    print("=== Checking base_item_id values ===")
     
     result = await cargo_query(
-        tables="skill_gems,skill,skill_levels",
-        fields="skill_gems._pageName=name,skill_gems.gem_tags,skill.cast_time,skill.description,skill.stat_text,skill.radius,skill.html,"
-               "skill_levels.damage_effectiveness,skill_levels.critical_strike_chance,skill_levels.cost_amounts,"
-               "skill_levels.level_requirement,skill_levels.strength_requirement,skill_levels.dexterity_requirement,skill_levels.intelligence_requirement",
-        where=f'skill_gems._pageName="{gem_name}" AND ({level_condition})',
-        join_on="skill_gems._pageID=skill._pageID,skill_gems._pageID=skill_levels._pageID",
-        limit=100
+        tables="skill_gems,items",
+        fields="skill_gems._pageName=name,items.base_item_id,items.drop_enabled",
+        join_on="skill_gems._pageID=items._pageID",
+        where='skill_gems._pageName="Absolution" OR skill_gems._pageName="Vaal Absolution" OR skill_gems._pageName="Absolution of Inspiring"',
+        limit=5
     )
     
-    levels_data = []
-    for row in result["cargoquery"]:
-        data = row["title"]
-        raw_html = data.get("html", "")
-        
-        decoded_html = html.unescape(raw_html)
-        
-        # Extract reservation
-        res_match = re.search(r'<th>Reservation</th><td[^>]*>([^<]+)</td>', decoded_html)
-        if res_match:
-            data["reservation"] = res_match.group(1)
-        
-        # Extract cost multiplier
-        mult_match = re.search(r'<th>Cost and Reservation Multiplier</th><td[^>]*>([^<]+)</td>', decoded_html)
-        if mult_match:
-            data["cost_multiplier"] = mult_match.group(1)
-        
-        # Remove the bulky html field from output
-        del data["html"]
-        levels_data.append(data)
+    if result.get("cargoquery"):
+        for row in result["cargoquery"]:
+            print(json.dumps(row["title"], indent=2))
     
-    if not result.get("cargoquery"):
-        return f"No level data found for '{gem_name}'"
-    
-    return json.dumps(levels_data, indent=2)
-
-async def search_gems(query: str, tag_filter: str = "") -> str:
-    """Search for skill gems by name pattern or tag."""
-    where_clauses = []
-    
-    if query:
-        where_clauses.append(f'skill_gems._pageName LIKE "%{query}%"')
-    if tag_filter:
-        where_clauses.append(f'skill_gems.gem_tags HOLDS "{tag_filter}"')
-    
-    # Need at least one filter
-    if not where_clauses:
-        return "Please provide a query or tag_filter"
-    
-    where_clause = " AND ".join(where_clauses)
+    # Step 2: Try filtering with empty string
+    print("\n=== Filtering base_item_id = empty string ===")
     
     result = await cargo_query(
-        tables="skill_gems",
-        fields="skill_gems._pageName=name,skill_gems.gem_tags",
-        where=where_clause,
-        limit=20
+        tables="skill_gems,items",
+        fields="skill_gems._pageName=name,items.base_item_id",
+        join_on="skill_gems._pageID=items._pageID",
+        where='items.base_item_id=""',
+        limit=5
     )
     
-    if not result.get("cargoquery"):
-        return f"No gems found matching query='{query}' tag='{tag_filter}'"
+    if result.get("cargoquery"):
+        for row in result["cargoquery"]:
+            print(json.dumps(row["title"], indent=2))
+    else:
+        print("No results")
     
-    gems = [row["title"] for row in result["cargoquery"]]
-    return json.dumps(gems, indent=2)
-
-async def get_related_gems(base_gem_name: str) -> str:
-    """Find all variants of a gem (Vaal, Transfigured, etc.)"""
+    # Step 3: Try with drop_enabled
+    print("\n=== Adding drop_enabled filter ===")
+    
     result = await cargo_query(
-        tables="skill_gems,skill",
-        fields="skill_gems._pageName=name,skill_gems.gem_tags,skill.description",
-        where=f'skill_gems._pageName LIKE "%{base_gem_name}%"',
-        join_on="skill_gems._pageID=skill._pageID",
-        limit=20
+        tables="skill_gems,items",
+        fields="skill_gems._pageName=name,items.base_item_id,items.drop_enabled",
+        join_on="skill_gems._pageID=items._pageID",
+        where='items.base_item_id="" AND items.drop_enabled="1"',
+        limit=5
     )
     
-    if not result.get("cargoquery"):
-        return f"No gems found related to '{base_gem_name}'"
+    if result.get("cargoquery"):
+        for row in result["cargoquery"]:
+            print(json.dumps(row["title"], indent=2))
+    else:
+        print("No results")
     
-    gems = [row["title"] for row in result["cargoquery"]]
-    return json.dumps(gems, indent=2)
-
-async def get_skill_html(gem_name: str) -> str:
-    """
-    Get skill gem info from PoE Wiki.
-    Returns: gem tags, cast time, crit chance, damage effectiveness, description, and stat text.
-    """
-    # Query skill_gems + skill tables joined
+    print("=== Filtering: no base_item_id + not Vaal ===")
+    
     result = await cargo_query(
-        tables="skill_gems,skill",
-        fields="skill_gems._pageName=name,skill_gems.gem_tags,skill.html",
-        where=f'skill_gems._pageName="{gem_name}"',
-        join_on="skill_gems._pageID=skill._pageID"
+        tables="skill_gems,items",
+        fields="skill_gems._pageName=name,items.base_item_id,skill_gems.is_vaal_skill_gem",
+        join_on="skill_gems._pageID=items._pageID",
+        where='items.base_item_id IS NULL AND skill_gems._pageName NOT LIKE "Vaal %"',
+        limit=10
     )
     
-    if not result.get("cargoquery"):
-        return f"No gem found with name '{gem_name}'"
-    
-    gems = []
-    for row in result["cargoquery"]:
-        data = row["title"]
-        raw_html = data.get("html", "")
+    if result.get("cargoquery"):
+        for row in result["cargoquery"]:
+            print(row["title"])
+    else:
+        print("No results")
         
-        parsed_fields = parse_skill_html(data.get("html", ""))
-        data.update(parsed_fields)
+async def debug_joins():
+    # Test 1: Just skill_gems + items (we know this works)
+    print("=== skill_gems + items ===")
+    result = await cargo_query(
+        tables="skill_gems,items",
+        fields="skill_gems._pageName=name,skill_gems._pageID=gem_page_id,items._pageID=item_page_id",
+        join_on="skill_gems._pageID=items._pageID",
+        where='skill_gems._pageName="Absolution"',
+        limit=1
+    )
+    if result.get("cargoquery"):
+        print(json.dumps(result["cargoquery"][0]["title"], indent=2))
         
-        # Remove the bulky html field from output
-        del data["html"]
-        gems.append(data)
+    # Test 1b: Just skill_gems + vendor_rewards (we know this works)
+    print("=== skill_gems + vendor_rewards ===")
+    result = await cargo_query(
+        tables="skill_gems,vendor_rewards",
+        fields="skill_gems._pageName=name,skill_gems._pageID=gem_page_id,vendor_rewards.act=vendor_act,vendor_rewards.quest_id",
+        join_on="skill_gems._pageID=vendor_rewards._pageID",
+        where='skill_gems._pageName="Absolution"',
+        limit=1
+    )
+    if result.get("cargoquery"):
+        print(json.dumps(result["cargoquery"][0]["title"], indent=2))
+        
+    # Test 1c: Just skill_gems + quest_rewards (we know this works)
+    print("=== skill_gems + quest_rewards ===")
+    result = await cargo_query(
+        tables="skill_gems,quest_rewards",
+        fields="skill_gems._pageName=name,skill_gems._pageID=gem_page_id,quest_rewards.act=quest_act,quest_rewards.quest_id",
+        join_on="skill_gems._pageID=quest_rewards._pageID",
+        where='skill_gems._pageName="Absolution"',
+        limit=1
+    )
+    if result.get("cargoquery"):
+        print(json.dumps(result["cargoquery"][0]["title"], indent=2))
+        
+    # Test 1d: Just skill_gems + quest_rewards (we know this works)
+    print("=== skill_gems + quest_rewards ===")
+    result = await cargo_query(
+        tables="skill_gems,quest_rewards,vendor_rewards,items",
+        fields="skill_gems._pageName=name,skill_gems._pageID=gem_page_id,vendor_rewards.act=vendor_act,quest_rewards.act=quest_act,items._pageID=item_page_id",
+        join_on="skill_gems._pageID=quest_rewards._pageID,skill_gems._pageID=vendor_rewards._pageID,skill_gems._pageID=items._pageID",
+        where='skill_gems._pageName="Absolution"',
+        limit=1
+    )
+    if result.get("cargoquery"):
+        print(json.dumps(result["cargoquery"][0]["title"], indent=2))
     
-    return json.dumps(gems, indent=2)
+    # Test 2: Check vendor_rewards structure
+    print("\n=== vendor_rewards for Absolution ===")
+    result = await cargo_query(
+        tables="vendor_rewards",
+        fields="vendor_rewards._pageName=page,vendor_rewards.act",
+        #where='vendor_rewards._pageName ="Absolution"',
+        where='vendor_rewards.quest_id ="a1q3"',
+        limit=5
+    )
+    if result.get("cargoquery"):
+        for row in result["cargoquery"]:
+            print(json.dumps(row["title"], indent=2))
+    else:
+        print("No results")
+    
+    # Test 3: Check quest_rewards structure
+    print("\n=== quest_rewards for Absolution ===")
+    result = await cargo_query(
+        tables="quest_rewards",
+        fields="quest_rewards._pageName=page,quest_rewards.act",
+        #where='quest_rewards._pageName ="Absolution"',
+        where='quest_rewards.quest_id ="a1q3"',
+        limit=5
+    )
+    if result.get("cargoquery"):
+        for row in result["cargoquery"]:
+            print(json.dumps(row["title"], indent=2))
+    else:
+        print("No results")
+    
+    # Test 4: Check quest_rewards structure
+    print("\n=== Full joining for Absolution ===")
+    result = await cargo_query(
+        tables="skill_gems,items,vendor_rewards,quest_rewards",
+        fields="skill_gems._pageName=name,MIN(vendor_rewards.act)=vendor_act,MIN(quest_rewards.act)=quest_act",
+        group_by="name",
+        order_by="vendor_act,quest_act,name",
+        join_on="skill_gems._pageID=quest_rewards._pageID,skill_gems._pageID=vendor_rewards._pageID,skill_gems._pageID=items._pageID",
+        where='items.base_item_id IS NULL '
+              'AND (skill_gems.is_vaal_skill_gem = "0" OR skill_gems.is_vaal_skill_gem IS NULL) '
+              'AND (skill_gems.is_awakened_support_gem = "0" OR skill_gems.is_awakened_support_gem IS NULL)',
+        limit=10,
+    )
+    if result.get("cargoquery"):
+        for row in result["cargoquery"]:
+            print(json.dumps(row["title"], indent=2))
+    else:
+        print("No results")
 
 # Run tests
 async def main():
-    print("=" * 60)
-    print("TEST 1: Get gem info for 'Awakened Minion Damage Support'")
-    print("=" * 60)
-    result = await get_gem_info("Awakened Minion Damage Support")
-    print(result)
+    #print("=" * 60)
+    #print("TEST 1: Get gem info for 'Awakened Minion Damage Support'")
+    #print("=" * 60)
+    #result = await get_gem_info("Awakened Minion Damage Support")
+    #print(result)
     
-    print("\n" + "=" * 60)
-    print("TEST 2: Get level 1 and 20 data for 'Awakened Minion Damage Support'")
-    print("=" * 60)
-    result = await get_gem_levels("Awakened Minion Damage Support", "1,20")
-    print(result)
+    #print("\n" + "=" * 60)
+    #print("TEST 2: Get level 1 and 20 data for 'Awakened Minion Damage Support'")
+    #print("=" * 60)
+    #result = await get_gem_levels("Awakened Minion Damage Support", "1,20")
+    #print(result)
     
-    print("\n" + "=" * 60)
-    print("TEST 3: Search for gems with 'Fire' in name")
-    print("=" * 60)
-    result = await search_gems("Fire")
-    print(result)
+    #print("\n" + "=" * 60)
+    #print("TEST 3: Search for gems with 'Fire' in name")
+    #print("=" * 60)
+    #result = await search_gems("Fire")
+    #print(result)
     
     #print("\n" + "=" * 60)
     #print("TEST 4: Search for Minion gems")
@@ -201,16 +199,28 @@ async def main():
     #result = await search_gems("", "Minion")
     #print(result[:1500] + "..." if len(result) > 1500 else result)
     
-    print("\n" + "=" * 60)
-    print("TEST 4: Get gem info from html for 'Awakened Minion Damage Support'")
-    print("=" * 60)
-    result = await get_skill_html("Awakened Minion Damage Support")
-    print(result[:1500] + "..." if len(result) > 1500 else result)
+    #print("\n" + "=" * 60)
+    #print("TEST 4: Get gem info from html for 'Awakened Minion Damage Support'")
+    #print("=" * 60)
+    #result = await get_skill_html("Awakened Minion Damage Support")
+    #print(result[:1500] + "..." if len(result) > 1500 else result)
+    
+    #print("\n" + "=" * 60)
+    #print("TEST 5: Get related gems for 'Anger'")
+    #print("=" * 60)
+    #result = await get_related_gems("Anger")
+    #print(result)
+    
+    #print("\n" + "=" * 60)
+    #print("Debug base gems")
+    #print("=" * 60)
+    #result = await debug_joins()
+    #print(result)
     
     print("\n" + "=" * 60)
-    print("TEST 5: Get related gems for 'Anger'")
+    print("TEST 6: Get skill gem list")
     print("=" * 60)
-    result = await get_related_gems("Anger")
+    result = await get_skill_list()
     print(result)
 
 if __name__ == "__main__":
