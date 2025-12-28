@@ -106,7 +106,13 @@ Skill gems normally cost mana equal to half your proficiency (rounded down) for 
 
 Skill gems will sometimes require attack rolls and some gems will require the targets to make saving throws. For attack skills, the ability used is dependent on the weapon used, and the DC is based on the same ability: 8 + proficiency bonus + the ability modifier. If it is a spell gem, you use your spellcasting attack bonus and DC. If you have no spellcasting attack bonus or DC, when you first use or attune to a spell skill gem, you pick Intelligence, Wisdom, or Charisma. an ability that you will use with them. The attack bonus you use when using the skill gem is equal to your proficiency + the ability modifier (min 0) and the DC of the saving throw is equal to 8 + your proficiency + the ability modifier (min 0).
 
-When using an active skill gem, you can spend mana to enhance the skill with a support skill gem, as long as the requirements are met. You must either be attuned to the support skill gem or have is socketed in the same item as the active skill gem.
+Each skill gem has a number of slots for support gems based on its tier. You can also attune to a support gem. When using an active skill gem, you can spend mana to enhance the skill with any of the support gem slotted into it or any attuned support gem, as long as the requirements are met. Each support gem will specify the requirements of using it, such as "melee attack skill", "projectile skill", "skill that does not chain", etc. A skill can only be modified by one support of the same kind, ex. a skill gem can't be supported by two "Onslaught" support gems.
+
+| Skill Gem Tier | Support Gem Slots |
+|:----:|:----:|
+| Lesser | 1 |
+| Standard | 2 |
+| Greater | 3 |
 
 ## Mana
 
@@ -120,7 +126,7 @@ When a creature is hit with an attack or a spell, there is a chance that it will
 
 ### Ailments and Damage Types
 | Damage Type | Ailment | Base Threshold |
-|:----:|:-----:|:-------------|
+|:----:|:-----:|:-------:|
 | Fire  | Ignite | 1 |
 | Cold  | Chill | 1 |
 | Lightning | Shock | 1 |
