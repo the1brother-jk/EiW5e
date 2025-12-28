@@ -222,7 +222,7 @@ async def get_skill_list() -> str:
         where='items.base_item_id IS NULL '
               'AND (skill_gems.is_vaal_skill_gem = "0" OR skill_gems.is_vaal_skill_gem IS NULL) '
               'AND (skill_gems.is_awakened_support_gem = "0" OR skill_gems.is_awakened_support_gem IS NULL)',
-        limit=10,
+        limit=1000
     )
     
     if not result.get("cargoquery"):

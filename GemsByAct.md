@@ -1,169 +1,161 @@
 # Gems By Act
 
 ## Twilight Strand
-- Arcane Surge Support
-- Blight
-- Burning Arrow
-- Caustic Arrow
-- Chance to Bleed Support
-- Cleave
-- Cobra Lash
-- Double Strike
-- Elemental Proliferation Support
-- Ethereal Knives
-- Explosive Trap
-- Firestrike
-- Freezing Pulse
-- Frost Blades
-- Frostbolt
-- Glacial Hammer
-- Ground Slam
 - Heavy Strike
-- Ice Shot
-- Leap Slam
-- Lightning Tendrils
-- Magma Orb
-- Molten Strike
-- Onslaught Support
-- Pierce Support
-- Poison Support
-- Purifying Flame
-- Raise Zombie
 - Ruthless Support
-- Shrapnel Shot
-- Smite
+- Double Strike
+- Chance to Bleed Support
+- Burning Arrow
+- Momentum Support
+- Viper Strike
+- Chance to Poison Support
+- Fireball
+- Arcane Surge Support
+- Glacial Hammer
+- Elemental Proliferation Support
 - Spectral Throw
-- Split Shot
-- Stormblast Mine
-- Viper Strike 
+- Prismatic Burst Support
 
-## Act1
+## Act 1
+- Absolution
 - Added Cold Damage Support
 - Added Fire Damage Support
 - Added Lightning Damage Support
 - Additional Accuracy Support
 - Ancestral Call Support
-- Ancestral Protector
 - Animate Weapon
 - Arc
-- Arcane Surge Support
-- Arctic Breath
 - Arrow Nova Support
+- Ballista Totem Support
 - Barrage
 - Bear Trap
+- Blade Trap
 - Blade Vortex
+- Blastchain Mine Support
+- Blazing Salvo
 - Blight
 - Blind Support
 - Blink Arrow
+- Blood and Sand
 - Bodyswap
 - Bone Offering
-- Burning Arrow
 - Caustic Arrow
-- Chance to Bleed Support
+- Chain Hook
 - Chance to Flee Support
 - Clarity
 - Cleave
+- Cobra Lash
 - Combustion Support
 - Contagion
 - Conversion Trap
+- Creeping Frost
+- Crushing Fist
+- Dash
 - Decoy Totem
 - Detonate Dead
+- Devour Support
 - Devouring Totem
-- Double Strike
 - Dual Strike
+- Earthshatter
+- Efficacy Support
 - Elemental Hit
-- Elemental Proliferation Support
+- Enduring Cry
 - Essence Drain
 - Ethereal Knives
 - Explosive Trap
-- Fire Nova Mine
+- Exsanguinate
+- Faster Attacks Support
 - Fire Trap
-- Fireball
-- Firestorm
 - Flame Dash
 - Flame Surge
+- Flame Wall
+- Flamewood Support
 - Flesh Offering
 - Flicker Strike
-- Freeze Mine
 - Freezing Pulse
 - Frost Blades
 - Frost Bomb
 - Frost Wall
+- Frostblink
 - Frostbolt
-- Glacial Hammer
+- Galvanic Arrow
 - Ground Slam
-- Heavy Strike
 - Holy Flame Totem
 - Ice Nova
 - Ice Shot
 - Ice Spear
+- Icicle Mine
 - Incinerate
 - Increased Critical Strikes Support
 - Infernal Blow
 - Infernal Legion Support
+- Infused Channelling Support
+- Intimidating Cry
+- Kinetic Bolt
+- Kinetic Fusillade
 - Knockback Support
 - Lacerate
 - Leap Slam
 - Lesser Multiple Projectiles Support
-- Lesser Poison Support
 - Life Gain on Hit Support
+- Lifetap Support
 - Lightning Arrow
 - Lightning Strike
 - Lightning Tendrils
 - Lightning Trap
 - Lightning Warp
-- Magma Orb
+- Locus Mine Support
 - Maim Support
+- Manabond
+- Manaforged Arrows Support
 - Melee Splash Support
-- Minefield Support
 - Minion Damage Support
 - Mirage Archer Support
-- Molten Shell
 - Molten Strike
 - Multiple Traps Support
-- Onslaught Support
 - Orb of Storms
+- Perforate
 - Pierce Support
+- Poisonous Concoction
 - Power Siphon
+- Precision
 - Puncture
 - Purifying Flame
 - Rain of Arrows
 - Raise Zombie
-- Rallying Cry
-- Ranged Attack Totem Support
 - Reave
-- Reckoning
 - Rejuvenation Totem
-- Remote Mine Support
-- Riposte
+- Rolling Magma
 - Ruthless Support
 - Scorching Ray
 - Searing Bond
 - Shattering Steel
 - Shield Charge
+- Shield Crush
 - Shrapnel Ballista
-- Shrapnel Shot
 - Siege Ballista
 - Siphoning Trap
 - Smite
 - Smoke Mine
+- Sniper's Mark
 - Spark
-- Spectral Shield Throw
-- Spectral Throw
+- Spectral Helix
 - Spell Cascade Support
 - Spell Totem Support
 - Spirit Offering
-- Split Shot
+- Split Arrow
+- Splitting Steel
 - Static Strike
-- Storm Barrier Support
+- Steelskin
 - Storm Brand
 - Storm Burst
 - Storm Call
+- Stormblast Mine
 - Stun Support
 - Summon Holy Relic
-- Summon Phantasm on Kill Support
+- Summon Phantasm Support
 - Summon Raging Spirit
-- Summon Skeleton
+- Summon Skeletons
 - Sunder
 - Sweep
 - Swift Assembly Support
@@ -173,37 +165,52 @@
 - Unearth
 - Venom Gyre
 - Vigilant Strike
-- Viper Strike
+- Vitality
 - Void Manipulation Support
+- Volcanic Fissure
 - Volatile Dead
 - Volley Support
+- Voltaxic Burst
 - War Banner
 - Whirling Blades
+- Wintertide Brand
 - Wither
 - Withering Step
 
-## Act2
+## Act 2
+- Ancestral Cry
+- Arcane Cloak
 - Arctic Armour
+- Assassin's Mark
+- Blade Blast
 - Blood Rage
 - Bloodlust Support
 - Brand Recall
+- Close Combat Support
 - Cold Snap
 - Cold to Fire Support
 - Concentrated Effect Support
 - Controlled Destruction Support
+- Corrupting Fever
+- Cruelty Support
 - Culling Strike Support
 - Damage on Full Life Support
 - Deadly Ailments Support
-- Deathmark Support
+- Defiance Banner
 - Desecrate
+- Divine Retribution
 - Elemental Damage with Attacks Support
 - Elemental Focus Support
 - Endurance Charge on Melee Stun Support
-- Enduring Cry
 - Ensnaring Arrow
-- Faster Attacks Support
+- Eviscerate
 - Faster Casting Support
+- Flesh and Stone
+- Forbidden Rite
 - Frenzy
+- Fresh Meat Support
+- Galvanic Field
+- Glacial Shield Swipe
 - Herald of Agony
 - Herald of Ash
 - Herald of Ice
@@ -212,130 +219,189 @@
 - Increased Critical Damage Support
 - Iron Grip Support
 - Iron Will Support
+- Kinetic Instability Support
+- Living Lightning Support
 - Melee Physical Damage Support
 - Minion Life Support
 - Minion Speed Support
+- Molten Shell
 - Nightblade Support
-- Plague Bearer
+- Overcharge Support
 - Physical to Lightning Support
+- Plague Bearer
 - Point Blank Support
 - Power Charge On Critical Support
+- Predator Support
+- Rage Support
 - Righteous Fire
+- Sacred Wisps Support
+- Sadism Support
+- Seismic Cry
+- Shockwave Support
 - Summon Skitterbots
+- Swordstorm
 - Tempest Shield
 - Trap and Mine Damage Support
+- Trinity Support
 - Vicious Projectiles Support
+- Volatility Support
+- Wall of Force
+- Warlord's Mark
+- Wave of Conviction
 
-## Act3 
+## Act 3
+- Added Chaos Damage Support
 - Advanced Traps Support
-- Ancestral Warchief
+- Alchemist's Mark
 - Anger
 - Animate Guardian
+- Archmage Support
 - Armageddon Brand
-- Artillary Ballista
-- Assassin's Mark
+- Arrogance Support
+- Artillery Ballista
+- Autoexertion
+- Automation
 - Ball Lightning
 - Bane
-- Barrage Support
+- Battlemage's Cry
 - Blade Flurry
 - Bladefall
+- Bladestorm
 - Blasphemy Support
 - Blast Rain
-- Blood Magic Support
+- Bloodthirst Support
+- Boneshatter
 - Burning Damage Support
 - Charged Dash
 - Charged Mines Support
 - Charged Traps Support
 - Cold Penetration Support
 - Conductivity
+- Conflagration
 - Consecrated Path
-- Convocation
+- Controlled Blaze Support
+- Corrupting Cry Support
+- Crackling Lance
 - Cremation
+- Critical Strike Affliction Support
+- Cursed Ground Support
 - Cyclone
 - Dark Pact
 - Despair
 - Determination
+- Detonate Mines
 - Discharge
 - Discipline
 - Divine Ire
 - Dominating Blow
 - Dread Banner
 - Earthquake
-- Efficacy Support
+- Elemental Army Support
 - Elemental Weakness
+- Energy Blade
 - Energy Leech Support
 - Enfeeble
+- Expert Retaliation Support
 - Explosive Arrow
+- Explosive Concoction
+- Eye of Winter
 - Faster Projectiles Support
 - Feeding Frenzy Support
 - Fire Penetration Support
+- Firestorm
 - Flameblast
 - Flamethrower Trap
 - Flammability
+- Focused Ballista Support
+- Focused Channelling Support
 - Fork Support
 - Fortify Support
 - Frostbite
+- General's Cry
 - Generosity Support
 - Glacial Cascade
 - Grace
-- Greater Volley Support
+- Guardian's Blessing Support
 - Haste
 - Hatred
+- Hexblast
 - High-Impact Mine Support
-- Holy Flame Totem
 - Hypothermia Support
 - Ice Bite Support
 - Ice Crash
 - Ice Trap
-- Increased Duration Support
+- Impale Support
+- Impending Doom Support
+- Infernal Cry
 - Innervate Support
+- Inspiration Support
 - Intensify Support
 - Item Rarity Support
 - Kinetic Blast
+- Kinetic Rain
 - Lancing Steel
 - Less Duration Support
 - Life Leech Support
+- Lightning Conduit
 - Lightning Penetration Support
 - Lightning Spire Trap
 - Malevolence
 - Mana Leech Support
 - Meat Shield Support
-- Minion and Totem Elemental Resistance Support
+- Mirror Arrow
+- More Duration Support
+- Penance Brand
 - Pestilent Strike
-- Poacher's Mark
-- Poison Support
-- Projectile Weakness
+- Petrified Blood
+- Pinpoint Support
+- Pride
+- Pulverise Support
 - Punishment
 - Purity of Elements
 - Purity of Fire
 - Purity of Ice
 - Purity of Lightning
+- Pyroclast Mine
+- Rage Vortex
 - Raise Spectre
-- Reduced Mana Support
+- Rallying Cry
+- Reap
+- Sacrifice Support
 - Scourge Arrow
+- Second Wind Support
 - Seismic Trap
 - Shock Nova
 - Shockwave Totem
 - Slower Projectiles Support
+- Somatic Shell
 - Soulrend
-- Storm Burst
+- Spectral Shield Throw
+- Spellslinger
+- Storm Rain
+- Stormbind
+- Summon Reaper
 - Swift Affliction Support
+- Swiftbrand Support
 - Tectonic Slam
 - Temporal Chains
+- Thunderstorm
 - Tornado Shot
-- Vengeance
-- Vitality
+- Urgent Orders Support
+- Vengeful Cry
 - Vortex
 - Vulnerability
-- Warlord's Mark
-- Wave of Conviction
 - Wild Strike
+- Windburst Support
 - Winter Orb
 - Wrath
 - Zealotry
 
-## Act4 
-- Abyssal Cry
+## Act 4
+- Ambush
+- Arcanist Brand
+- Barrage Support
+- Behead Support
+- Berserk
 - Bonechill Support
 - Brutality Support
 - Cast On Critical Strike Support
@@ -345,365 +411,80 @@
 - Cast when Stunned Support
 - Cast while Channelling Support
 - Chain Support
-- Cluster Trap Support
-- Curse On Hit Support
+- Cluster Traps Support
 - Decay Support
+- Destructive Link
+- Eternal Blessing Support
+- Fist of War Support
+- Flame Link
+- Frigid Bond Support
+- Frost Shield
+- Frozen Legion
 - Greater Multiple Projectiles Support
+- Greater Volley Support
+- Hex Bloom Support
+- Hextouch Support
+- Hydrosphere
 - Ignite Proliferation Support
-- Immolate Support
 - Immortal Call
+- Immolate Support
 - Increased Area of Effect Support
+- Intuitive Link
+- Mark On Hit Support
+- Minefield Support
 - Multiple Totems Support
 - Multistrike Support
+- Overexertion Support
 - Phase Run
+- Protective Link
+- Returning Projectiles Support
+- Rupture Support
+- Sigil of Power
+- Snipe
+- Soul Link
 - Spell Echo Support
+- Spellblade Support
 - Summon Carrion Golem
 - Summon Chaos Golem
 - Summon Flame Golem
 - Summon Ice Golem
 - Summon Lightning Golem
 - Summon Stone Golem
+- Temporal Rift
+- Tornado
+- Trauma Support
 - Unleash Support
+- Vampiric Link
 - Vile Toxins Support
+- Void Sphere
 - Withering Touch Support
 
-## Act5 
-- ?
-- ?
-- ?
+## Act 5
+(Note: The PoE Wiki does not currently list Act 5 gems separately.)
 
-## Act6+
-- Abyssal Cry
-- Added Cold Damage Support
-- Added Fire Damage Support
-- Added Lightning Damage Support
-- Additional Accuracy Support
-- Advanced Traps Support
-- Ancestral Call Support
+## Act 6+
 - Ancestral Protector
 - Ancestral Warchief
-- Anger
-- Animate Guardian
-- Animate Weapon
-- Arc
-- Arcane Surge Support
-- Arctic Armour
-- Arctic Breath
-- Armageddon Brand
-- Arrow Nova Support
-- Artillary Ballista
-- Assassin's Mark
-- Ball Lightning
-- Bane
-- Barrage
-- Barrage Support
-- Bear Trap
-- Blade Flurry
-- Blade Vortex
-- Bladefall
-- Blasphemy Support
-- Blast Rain
-- Blight
-- Blind Support
-- Blink Arrow
-- Blood Magic Support
-- Blood Rage
-- Bloodlust Support
-- Bodyswap
-- Bone Offering
-- Bonechill Support
-- Brand Recall
-- Brutality Support
-- Burning Arrow
-- Burning Damage Support
-- Cast On Critical Strike Support
-- Cast on Death Support
-- Cast on Melee Kill Support
-- Cast when Damage Taken Support
-- Cast when Stunned Support
-- Cast while Channelling Support
-- Caustic Arrow
-- Chain Support
-- Chance to Bleed Support
-- Chance to Flee Support
-- Charged Dash
-- Charged Mines Support
-- Charged Traps Support
-- Clarity
-- Cleave
-- Cluster Trap Support
-- Cobra Lash
-- Cold Penetration Support
-- Cold Snap
-- Cold to Fire Support
-- Combustion Support
-- Concentrated Effect Support
-- Conductivity
-- Consecrated Path
-- Contagion
-- Controlled Destruction Support
-- Conversion Trap
-- Convocation
-- Cremation
-- Culling Strike Support
-- Curse On Hit Support
-- Cyclone
-- Damage on Full Life Support
-- Dark Pact
-- Deadly Ailments Support
-- Deathmark Support
-- Decay Support
-- Decoy Totem
-- Desecrate
-- Despair
-- Determination
-- Detonate Dead
-- Devouring Totem
-- Discharge
-- Discipline
-- Divine Ire
-- Dominating Blow
-- Double Strike
-- Dread Banner
-- Dual Strike
-- Earthquake
-- Efficacy Support
-- Elemental Damage with Attacks Support
-- Elemental Focus Support
-- Elemental Hit
-- Elemental Proliferation Support
-- Elemental Weakness
-- Endurance Charge on Melee Stun Support
-- Enduring Cry
-- Energy Leech Support
-- Enfeeble
-- Ensnaring Arrow
-- Essence Drain
-- Ethereal Knives
-- Explosive Arrow
-- Explosive Trap
-- Faster Attacks Support
-- Faster Casting Support
-- Faster Projectiles Support
-- Feeding Frenzy Support
-- Fire Nova Mine
-- Fire Penetration Support
-- Fire Trap
-- Fireball
-- Firestorm
-- Flame Dash
-- Flame Surge
-- Flameblast
-- Flamethrower Trap
-- Flammability
-- Flesh Offering
-- Flicker Strike
-- Fork Support
-- Fortify Support
-- Freeze Mine
-- Freezing Pulse
-- Frenzy
-- Frost Blades
-- Frost Bomb
-- Frost Wall
-- Frostbite
-- Frostbolt
-- Generosity Support
-- Glacial Cascade
-- Glacial Hammer
-- Grace
-- Greater Multiple Projectiles Support
-- Greater Volley Support
-- Ground Slam
-- Haste
-- Hatred
-- Heavy Strike
-- Herald of Agony
-- Herald of Ash
-- Herald of Ice
-- Herald of Purity
-- Herald of Thunder
-- High-Impact Mine Support
-- Holy Flame Totem
-- Hypothermia Support
-- Ice Bite Support
-- Ice Crash
-- Ice Nova
-- Ice Shot
-- Ice Spear
-- Ice Trap
-- Ignite Proliferation Support
-- Immolate Support
-- Immortal Call
-- Incinerate
-- Increased Area of Effect Support
-- Increased Critical Damage Support
-- Increased Critical Strikes Support
-- Increased Duration Support
-- Infernal Blow
-- Infernal Legion Support
-- Innervate Support
-- Intensify Support
-- Iron Grip Support
-- Iron Will Support
-- Item Rarity Support
-- Kinetic Blast
-- Knockback Support
-- Lacerate
-- Lancing Steel
-- Leap Slam
-- Less Duration Support
-- Lesser Multiple Projectiles Support
-- Lesser Poison Support
-- Life Gain on Hit Support
-- Life Leech Support
-- Lightning Arrow
-- Lightning Penetration Support
-- Lightning Spire Trap
-- Lightning Strike
-- Lightning Tendrils
-- Lightning Trap
-- Lightning Warp
-- Magma Orb
-- Maim Support
-- Malevolence
-- Mana Leech Support
-- Meat Shield Support
-- Melee Physical Damage Support
-- Melee Splash Support
-- Minefield Support
-- Minion and Totem Elemental Resistance Support
-- Minion Damage Support
-- Minion Life Support
-- Minion Speed Support
-- Mirage Archer Support
-- Molten Shell
-- Molten Strike
-- Multiple Totems Support
-- Multiple Traps Support
-- Multistrike Support
-- Nightblade Support
-- Onslaught Support
-- Orb of Storms
-- Pestilent Strike
-- Phase Run
-- Physical to Lightning Support
-- Pierce Support
-- Plague Bearer
-- Poacher's Mark
-- Point Blank Support
-- Poison Support
-- Power Charge On Critical Support
-- Power Siphon
-- Projectile Weakness
-- Puncture
-- Punishment
-- Purifying Flame
-- Purity of Elements
-- Purity of Fire
-- Purity of Ice
-- Purity of Lightning
-- Rain of Arrows
-- Raise Spectre
-- Raise Zombie
-- Rallying Cry
-- Ranged Attack Totem Support
-- Reave
-- Reckoning
-- Reduced Mana Support
-- Rejuvenation Totem
-- Remote Mine Support
-- Righteous Fire
-- Riposte
-- Ruthless Support
-- Scorching Ray
-- Scourge Arrow
-- Searing Bond
-- Seismic Trap
-- Shattering Steel
-- Shield Charge
-- Shock Nova
-- Shockwave Totem
-- Shrapnel Ballista
-- Shrapnel Shot
-- Siege Ballista
-- Siphoning Trap
-- Slower Projectiles Support
-- Smite
-- Smoke Mine
-- Soulrend
-- Spark
-- Spectral Shield Throw
-- Spectral Throw
-- Spell Cascade Support
-- Spell Echo Support
-- Spell Totem Support
-- Spirit Offering
-- Split Shot
-- Static Strike
-- Storm Barrier Support
-- Stormblast Mine
-- Storm Brand
-- Storm Burst
-- Storm Call
-- Stun Support
-- Summon Carrion Golem
-- Summon Chaos Golem
-- Summon Flame Golem
-- Summon Holy Relic
-- Summon Ice Golem
-- Summon Lightning Golem
-- Summon Phantasm on Kill Support
-- Summon Raging Spirit
-- Summon Skeleton
-- Summon Skitterbots
-- Summon Stone Golem
-- Sunder
-- Sweep
-- Swift Affliction Support
-- Swift Assembly Support
-- Tectonic Slam
-- Tempest Shield
-- Temporal Chains
-- Tornado Shot
-- Toxic Rain
-- Trap and Mine Damage Support
-- Trap Support
-- Unbound Ailments Support
-- Unearth
-- Unleash Support
-- Vengeance
-- Venom Gyre
-- Vicious Projectiles Support
-- Vigilant Strike
-- Vile Toxins Support
-- Viper Strike
-- Vitality
-- Void Manipulation Support
-- Volatile Dead
-- Volley Support
-- Vortex
-- Vulnerability
-- War Banner
-- Warlord's Mark
-- Wave of Conviction
-- Whirling Blades
-- Wild Strike
-- Winter Orb
-- Wither
-- Withering Step
-- Withering Touch Support
-- Wrath
-- Zealotry
+- Block Chance Reduction Support
+- Elemental Penetration Support
+- Empower Support
+- Enhance Support
+- Enlighten Support
+- Item Quantity Support
+- Portal
+- Quickstep
 
 ##### Cleric and Paladin Only Skills
-  
-  - Consecrated Path
-  - Divine Ire
-  - Herald of Purity
-  - Holy Flame Totem
-  - Purifying Flame
-  - Smite
-  - Summon Holy Relic
-  - Wave of Conviction
-  - Zealotry
+- Absolution
+- Consecrated Path
+- Divine Ire
+- Divine Retribution
+- Guardian's Blessing Support
+- Herald of Purity
+- Holy Flame Totem
+- Penance Brand
+- Purifying Flame
+- Smite
+- Summon Holy Relic
+- Wave of Conviction
+- Zealotry

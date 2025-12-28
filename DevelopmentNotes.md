@@ -1,5 +1,8 @@
 ## Change Log
 
+* 12/28/2025: Updated GemsByAct with new list.
+* 12/27/2025: Added DesignDoc.
+* 12/26/2025: Migrated from Homebrewery to Github.
 * 4/25/2019: Rewrote all the skill gems, adding ailment thresholds and removing dice tiers. Added the new skills to Twilight Strand
 * 4/23/2019: Added Change Log
 * 4/23/2019: Started replacing 'tier 1' with 'lesser' when describing gems and 'tier 2' with 'greater'.
