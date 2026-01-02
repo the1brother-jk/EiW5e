@@ -156,7 +156,7 @@ When attacking a creature that is shocked, you have advantage on your damage rol
 
 ### Bleeding
 
-A creature that is bleeding takes 2 damage at the end of each of its turns. Moving while bleeding doubles the damage from bleeding. Bleeding lasts until it is healed with any healing spell or if a successful DC 12 Medicine check is made. If a healing spell is used to heal bleeding, you do not gain any health from it.
+A creature that is bleeding takes 2 damage at the end of each of its turns. Moving while bleeding deals double damage. Bleeding lasts until it is healed with any healing spell or if a successful DC 12 Medicine check is made. If a healing spell is used to heal bleeding, you do not gain any health from it.
 
 ### Inflict
 
