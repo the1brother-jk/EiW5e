@@ -29,30 +29,30 @@ This document contains all skill gems available during the Twilight Strand encou
 
 Casting Time: When making a ranged attack with a bow or crossbow
 Range: Normal weapon range
-Mana Cost: Lesser (PRO/2, rounded up), Standard (PRO), Greater (PRO+3)
+Mana Cost: Lesser (1), Standard (2), Greater (3)
 
 This is a green gem with gold gilding. When held or socketed, the gem glows with flickering orange light.
 
-**Lesser**: When making a ranged attack with a bow or crossbow, you may spend mana equal to PRO/2 (rounded up) to use Burning Arrow. Your physical damage is converted to fire damage. On hit, the attack deals an additional PRO×(1d4) fire damage. This attack has +4 to Ignite Threshold.
+**Lesser**: When making a ranged attack with a bow or crossbow, you may spend 1 mana to use Burning Arrow. Your physical damage is converted to fire damage. On hit, the attack deals an additional 1d4 fire damage. This attack has +4 to Ignite Threshold.
 
-**Standard**: When making a ranged attack with a bow or crossbow, you may spend mana equal to PRO to use Burning Arrow. Your physical damage is converted to fire damage. On hit, the attack deals an additional PRO×(1d6) fire damage. This attack has +5 to Ignite Threshold.
+**Standard**: When making a ranged attack with a bow or crossbow, you may spend 2 mana to use Burning Arrow. Your physical damage is converted to fire damage. On hit, the attack deals an additional 1d6 fire damage. This attack has +5 to Ignite Threshold.
 
-**Greater**: When making a ranged attack with a bow or crossbow, you may spend mana equal to PRO+3 to use Burning Arrow. Your physical damage is converted to fire damage. On hit, the attack deals an additional PRO×(1d8) fire damage. This attack has +6 to Ignite Threshold
+**Greater**: When making a ranged attack with a bow or crossbow, you may spend 3 mana to use Burning Arrow. Your physical damage is converted to fire damage. On hit, the attack deals an additional 1d8 fire damage. This attack has +6 to Ignite Threshold.
 
 ### Double Strike
 *Attack, Melee, Strike, Physical*
 
 Casting Time: When making a melee attack
 Range: Melee weapon reach
-Mana Cost: Lesser (PRO/2, rounded up), Standard (PRO), Greater (PRO+3)
+Mana Cost: Lesser (1), Standard (2), Greater (3)
 
 This is a green gem with gold gilding. The gem pulses with a steady rhythm, like a heartbeat.
 
-**Lesser**: When making a melee attack, you may spend mana equal to PRO/2 (rounded up) to use Double Strike. You make two rapid strikes against the same target. Roll to hit twice. Each hit that succeeds deals your weapon damage. This attack has +4 to Bleed Threshold.
+**Lesser**: When making a melee attack, you may spend 1 mana to use Double Strike. You make two rapid strikes against the same target. Roll to hit twice. Each hit that succeeds deals your weapon damage. This attack has +4 to Bleed Threshold.
 
-**Standard**: When making a melee attack, you may spend mana equal to PRO to use Double Strike. You make two rapid strikes against the same target. Roll to hit twice. Each hit that succeeds deals your weapon damage + 1d4. This attack has +5 to Bleed Threshold.
+**Standard**: When making a melee attack, you may spend 2 mana to use Double Strike. You make two rapid strikes against the same target. Roll to hit twice. Each hit that succeeds deals your weapon damage + 1d4. This attack has +5 to Bleed Threshold.
 
-**Greater**: When making a melee attack, you may spend mana equal to PRO+3 to use Double Strike. You make two rapid strikes against the same target. Roll to hit twice. Each hit that succeeds deals your weapon damage + 1d6. This attack has +6 to Bleed Threshold. If the target is already bleeding, each strike deals an additional PRO damage.
+**Greater**: When making a melee attack, you may spend 3 mana to use Double Strike. You make two rapid strikes against the same target. Roll to hit twice. Each hit that succeeds deals your weapon damage + 1d6. This attack has +6 to Bleed Threshold. If the target is already bleeding, each strike deals an additional 1d8 damage.
 
 ### Firestrike
 *Projectile, Spell, Area of Effect, Fire*
@@ -75,60 +75,60 @@ This is a blue gem with gold gilding. The gem radiates warmth and contains what 
 
 Casting Time: When making a melee attack with a bludgeoning weapon
 Range: Melee weapon reach
-Mana Cost: Lesser (PRO/2, rounded up), Standard (PRO), Greater (PRO+3)
+Mana Cost: Lesser (1), Standard (2), Greater (3)
 
 This is a red gem with gold gilding. Frost crystals seem to form and melt on its surface continuously.
 
-**Lesser**: When making a melee attack with a bludgeoning weapon, you may spend mana equal to PRO/2 (rounded up) to use Glacial Hammer. Your weapon becomes encased in ice. Your physical damage is converted to cold damage and the attack deals an additional PRO×(1d4) cold damage. This attack has +4 to Chill Threshold. Cold ailments caused by this attack last 1 additional round. If the target is already frozen on hit, deal an additional PRO force damage.
+**Lesser**: When making a melee attack with a bludgeoning weapon, you may spend 1 mana to use Glacial Hammer. Your weapon becomes encased in ice. Your physical damage is converted to cold damage and the attack deals an additional 1d4 cold damage. This attack has +4 to Chill Threshold. Cold ailments caused by this attack last 1 additional round.
 
-**Standard**: When making a melee attack with a bludgeoning weapon, you may spend mana equal to PRO to use Glacial Hammer. Your weapon becomes encased in ice. Your physical damage is converted to cold damage and the attack deals an additional PRO×(1d6) cold damage. This attack has +5 to Chill Threshold. Cold ailments caused by this attack last 1 additional rounds. If the target is already frozen on hit, deal an additional 2*PRO force damage.
+**Standard**: When making a melee attack with a bludgeoning weapon, you may spend 2 mana to use Glacial Hammer. Your weapon becomes encased in ice. Your physical damage is converted to cold damage and the attack deals an additional 1d6 cold damage. This attack has +5 to Chill Threshold. Cold ailments caused by this attack last 1 additional round. If the target is already frozen on hit, deal an additional 2d4 force damage.
 
-**Greater**: When making a melee attack with a bludgeoning weapon, you may spend mana equal to PRO+3 to use Glacial Hammer. Your weapon becomes encased in ice. Your physical damage is converted to cold damage and the attack deals an additional PRO×(1d8) cold damage. This attack has +6 to Chill Threshold. Cold ailments caused by this attack last 2 additional rounds. If the target is already frozen on hit, deal an additional 3*PRO force damage.
+**Greater**: When making a melee attack with a bludgeoning weapon, you may spend 3 mana to use Glacial Hammer. Your weapon becomes encased in ice. Your physical damage is converted to cold damage and the attack deals an additional 1d8 cold damage. This attack has +6 to Chill Threshold. Cold ailments caused by this attack last 2 additional rounds. If the target is already frozen on hit, deal an additional 3d4 force damage.
 
 ### Heavy Strike
 *Attack, Melee, Strike*
 
 Casting Time: When making a melee attack
 Range: Melee weapon reach
-Mana Cost: Lesser (PRO/2, rounded up), Standard (PRO), Greater (PRO+3)
+Mana Cost: Lesser (1), Standard (2), Greater (3)
 
 This is a red gem with gold gilding. The gem feels heavier than it should be for its size.
 
-**Lesser**: When making a melee attack with a mace, sceptre, axe, sword, or staff, you may spend mana equal to PRO/2 (rounded up) to use Heavy Strike. This attack has +4 to Stun Threshold. On hit, the attack deals an additional PRO×(1d4) damage. Roll 1d20; on a 17 or higher, the damage dealt by this attack is doubled.
+**Lesser**: When making a melee attack with a mace, sceptre, axe, sword, or staff, you may spend 1 mana to use Heavy Strike. This attack has +4 to Stun Threshold. On hit, the attack deals an additional 1d4 damage. Roll 1d20; on a 17 or higher, the damage dealt by this attack is doubled.
 
-**Standard**: When making a melee attack with a mace, sceptre, axe, sword, or staff, you may spend mana equal to PRO to use Heavy Strike. This attack has +5 to Stun Threshold. On hit, the attack deals an additional PRO×(1d6) damage. Roll 1d20; on a 16 or higher, the damage dealt by this attack is doubled.
+**Standard**: When making a melee attack with a mace, sceptre, axe, sword, or staff, you may spend 2 mana to use Heavy Strike. This attack has +5 to Stun Threshold. On hit, the attack deals an additional 1d6 damage. Roll 1d20; on a 16 or higher, the damage dealt by this attack is doubled.
 
-**Greater**: When making a melee attack with a mace, sceptre, axe, sword, or staff, you may spend mana equal to PRO+3 to use Heavy Strike. This attack has +6 to Stun Threshold. On hit, the attack deals an additional PRO×(1d8) damage and knocks the target back 10 feet. Roll 1d20; on a 15 or higher, the damage dealt by this attack is doubled.
+**Greater**: When making a melee attack with a mace, sceptre, axe, sword, or staff, you may spend 3 mana to use Heavy Strike. This attack has +6 to Stun Threshold. On hit, the attack deals an additional 1d8 damage and knocks the target back 10 feet. Roll 1d20; on a 15 or higher, the damage dealt by this attack is doubled.
 
 ### Spectral Throw
 *Attack, Projectile*
 
 Casting Time: When making an attack with a melee weapon
 Range: 30 feet (Lesser/Standard), 40 feet (Greater)
-Mana Cost: Lesser (PRO/2, rounded up), Standard (PRO), Greater (PRO+3)
+Mana Cost: Lesser (1), Standard (2), Greater (3)
 
 This is a green gem with gold gilding. Ghostly images of weapons seem to swirl within the gem.
 
-**Lesser**: When making an attack with a melee weapon, you may spend mana equal to PRO/2 (rounded up) to use Spectral Throw. A spectral copy of your weapon flies out in a straight line up to 30 feet. Roll to hit each creature it passes through. At the end of the round the spectral weapon will return to you. Roll to hit each creature it passes through. On hit, the spectral weapon deals damage equal to your weapon damage.
+**Lesser**: When making an attack with a melee weapon, you may spend 1 mana to use Spectral Throw. A spectral copy of your weapon flies out in a straight line up to 30 feet. Roll to hit each creature it passes through. At the end of the round the spectral weapon will return to you. Roll to hit each creature it passes through. On hit, the spectral weapon deals damage equal to your weapon damage.
 
-**Standard**: When making an attack with a melee weapon, you may spend mana equal to PRO to use Spectral Throw. A spectral copy of your weapon flies out in a straight line up to 30 feet. Roll to hit each creature it passes through. At the end of the round the spectral weapon will return to you. Roll to hit each creature it passes through. On hit, the spectral weapon deals damage equal to your weapon damage + 1d4.
+**Standard**: When making an attack with a melee weapon, you may spend 2 mana to use Spectral Throw. A spectral copy of your weapon flies out in a straight line up to 30 feet. Roll to hit each creature it passes through. At the end of the round the spectral weapon will return to you. Roll to hit each creature it passes through. On hit, the spectral weapon deals damage equal to your weapon damage + 1d4.
 
-**Greater**: When making an attack with a melee weapon, you may spend mana equal to PRO+3 to use Spectral Throw. A spectral copy of your weapon flies out in a straight line up to 40 feet. Roll to hit each creature it passes through. At the end of the round the spectral weapon will return to you. Roll to hit each creature it passes through. On hit, the spectral weapon deals damage equal to your weapon damage + 1d6.
+**Greater**: When making an attack with a melee weapon, you may spend 3 mana to use Spectral Throw. A spectral copy of your weapon flies out in a straight line up to 40 feet. Roll to hit each creature it passes through. At the end of the round the spectral weapon will return to you. Roll to hit each creature it passes through. On hit, the spectral weapon deals damage equal to your weapon damage + 1d6.
 
 ### Viper Strike
 *Attack, Duration, Melee, Strike, Chaos*
 
 Casting Time: When making a melee attack
 Range: Melee weapon reach
-Mana Cost: Lesser (PRO/2, rounded up), Standard (PRO), Greater (PRO+3)
+Mana Cost: Lesser (1), Standard (2), Greater (3)
 
 This is a green gem with gold gilding. The gem has a sickly green tint and seems to pulse with dark energy.
 
-**Lesser**: When making a melee attack with a claw, dagger, or sword, you may spend mana equal to PRO/2 (rounded up) to use Viper Strike. 60% of your physical damage is converted to necrotic damage. On hit, the attack deals an additional PRO×(1d4) necrotic damage. This attack has +6 to Inflict Threshold. Inflicted caused by this attack lasts for 4 rounds.
+**Lesser**: When making a melee attack with a claw, dagger, or sword, you may spend 1 mana to use Viper Strike. 60% of your physical damage is converted to necrotic damage. On hit, the attack deals an additional 1d4 necrotic damage. This attack has +6 to Inflict Threshold. Inflict caused by this attack lasts for 4 rounds.
 
-**Standard**: When making a melee attack with a claw, dagger, or sword, you may spend mana equal to PRO to use Viper Strike. 60% of your physical damage is converted to necrotic damage. On hit, the attack deals an additional PRO×(1d6) necrotic damage. This attack has +8 to Inflict Threshold. Inflicted caused by this attack lasts for 6 rounds and deals 1 additional damage per round.
+**Standard**: When making a melee attack with a claw, dagger, or sword, you may spend 2 mana to use Viper Strike. 60% of your physical damage is converted to necrotic damage. On hit, the attack deals an additional 1d6 necrotic damage. This attack has +8 to Inflict Threshold. Inflict caused by this attack lasts for 6 rounds and deals 1 additional damage per round.
 
-**Greater**: When making a melee attack with a claw, dagger, or sword, you may spend mana equal to PRO+3 to use Viper Strike. 60% of your physical damage is converted to necrotic damage. On hit, the attack deals an additional PRO×(1d8) necrotic damage. This attack has +10 to Inflict Threshold. Inflicted caused by this attack lasts for 8 rounds and deals 2 additional damage per round. If dual wielding, you may make an attack with your off-hand weapon as part of the same attack action, but this second strike deals 20% less damage.
+**Greater**: When making a melee attack with a claw, dagger, or sword, you may spend 3 mana to use Viper Strike. 60% of your physical damage is converted to necrotic damage. On hit, the attack deals an additional 1d8 necrotic damage. This attack has +10 to Inflict Threshold. Inflict caused by this attack lasts for 8 rounds and deals 2 additional damage per round. If dual wielding, you may make an attack with your off-hand weapon as part of the same attack action, but this second strike deals half damage.
 
 ---
 

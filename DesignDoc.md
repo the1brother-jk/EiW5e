@@ -6,25 +6,46 @@ Names:
   * If the name of the skill matches a spell that already exists in D&D, change it to something appropriate. These have been changed so far:
     * Fireball -> Firestrike
 
-Mana Cost:
-  * This scales based on the tier of the skill:
+Attack Skills:
+  * The mana cost of attack skills scales with its tier:
+    * Lesser skill gems: 1
+    * Standard skill gems: 2
+    * Greater skill gems: 3
+  * Using an attack skill gem takes an attack. Use this phrasing when describing the skill: "When making a [Type/Damage Requirement] attack..."
+  * Damage is based on tier, and the default progression is: 1d4 → 1d6 → 1d8
+  * Standard tier should enhance damage without overshadowing the base attack
+
+Spell Skills:
+  * The mana cost of spell skills scales with the tier and your proficiency bonus:
     * Lesser skill gems: PRO/2, rounded up
     * Standard skill gems: PRO
     * Greater skill gems: PRO + 3
-  * If the skill is a channeling skill, it scales differently:
-    * Lesser skill gems: PRO/3, rounded up
-    * Standard skill gems: PRO/2, rounded up
-    * Greater skill gems: PRO/2 + 2, rounded up
-  * If the skill is an aura, it both uses and reserves a set of mana:
+  * Using a spell skill gem takes an action. Use this phrasing when describing the skill: "As an action,..."
+  * Damage is based on tier, but scales with proficiency bonus: PRO×(damage dice)
+  * Default damage dice progression across tiers: 1d4 → 1d6 → 1d8
+
+Channeling Skills:
+  * Channeling Skills are either spell skills or attack skills that come in two varieties: Charging or Sustain
+  * Channeling Skills have an upfront cost, and a cost to amplify:
+    * Attack Skill: 1/2/3 mana upfront, 1 mana to amplify
+    * Spell Skill: [PRO/2]/PRO/[PRO+3], half the upfront cost, rounded down, to amplify
+  * You are considered Channeling until the skill ends, and Channeling requires concentration.
+  * Charging Channeling:
+    * Each use of the skill gives it a charge, up to the maximum charges equal to your proficiency bonus.
+    * You may use an action and pay the amplify cost to increase charges, or release the skill to end it.
+    * When the skill ends, for any reason, the charges are all consumed for some large effect.
+  * Sustain Channeling:
+    * Each use of the skill gives it a charge, up to the maximum charges equal to your proficiency bonus.
+    * The skill has an ongoing effect dependent on the number of charges
+    * You can pay the costs necessary to amplify the skill and increase its charges, or you can maintain the skill for free, up to a specific duration (such as 4 rounds) dependent on the skill
+    * When the skill ends, all charges are lost without effect.
+
+Auras:
+  * Aura skills both cost and reserve mana dependent on teir and proficiency bonus:
     * Lesser skill gems: PRO + 1
     * Standard skill gems: 2×PRO
     * Greater skill gems: 3×PRO
-
-Action Cost:
-  * For attack skills, using the skill gem takes an attack: "When making a [Type/Damage Requirement] attack..."
-  * For spell skills, using the skill gem takes an action: "As an action,..."
-  * If the skill is a channeling skill, then it can also be used as a bonus action: "If you channeled [skill] as an action, you may also channel it as a bonus action."
-  * For aura skills, the casting time is 1 minute. "After concentrating for 1 minute,...
+  * To activate an aura, you must spend 1 minute casting the skill. Use this phrasing when describing the skill: "After concentrating for 1 minute,..
 
 Saving Throws:
   * AoE skills, or skills that apply a persistent effect should require a saving throw.
@@ -39,13 +60,9 @@ Ailments:
     * Standard skill gems: +5 to ailment threshold
     * Greater skill gems: +6 to ailment threshold
   * Skills can increase or decrease ailment effects (duration, damage per round, etc.).
-	
+
 Damage:
-  * At every tier, damage is scaled based on proficiency bonus: PRO×(damage dice)
   * Use the multiplication symbol (×) not asterisk (*) when writing damage formulas
-  * Default damage dice progression across tiers: 1d4 → 1d6 → 1d8
-  * For multi-hit skills or skills with high base damage, use smaller progressions:
-    * Example: 1d4 → 1d4 → 1d6 (Double Strike, Spectral Throw)
   * Standard tier should enhance damage without overshadowing the base attack
 
 Duration:
@@ -53,7 +70,7 @@ Duration:
 
 Range/Area:
   * A skill should only have an area of effect if the PoE skill has substantial AoE.
-  * The Range and Area increase with tier if the PoE skill gem has increasing area.
+  * The Range and Area only increase with tier if the PoE skill gem has increasing area.
 
 Support Gems:
   * Support Gems come in one tier, but their effect scales with PRO and both the effect and cost modifier scale with the active skill tier.
